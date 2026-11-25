@@ -1,7 +1,7 @@
 {
   "title": "Azad Bilik open data",
   "upload_type": "dataset",
-  "description": "Open data about Azerbaijani culture and its geography. <b>Culture</b>: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. <b>Atlas</b>: census populations of historical Azerbaijan by district and county (1956–2019), Azerbaijani communities in Georgia, Dagestan and Soviet Armenia (1926–2021), the peoples of Azerbaijan by district (1979–2019), native languages by uezd at the 1897 census of the Russian Empire, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses. Every figure carries its source. See https://azadbilik.org.",
+  "description": "Open data about Azerbaijani culture and its geography. <b>Culture</b>: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. <b>Atlas</b>: census populations of historical Azerbaijan by district and county (1939–2019), Azerbaijani communities in Georgia, Dagestan and Soviet Armenia (1926–2021), the peoples of Azerbaijan by district (1979–2019), native languages by uezd at the 1897 census of the Russian Empire, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses. Every figure carries its source. See https://azadbilik.org.",
   "creators": [{ "name": "Azad Bilik contributors" }],
   "license": "cc-zero",
   "keywords": ["Azerbaijan", "Azerbaijani literature", "Nizami", "miniatures", "census", "population", "minorities", "languages", "1897 census", "Russian Empire", "Azerbaijan SSR"],
