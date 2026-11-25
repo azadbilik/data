@@ -3,8 +3,8 @@ title: "Azad Bilik open data"
 message: "If you use these data, please cite them as below."
 type: dataset
 doi: 10.5281/zenodo.24543369
-version: "1.2"
-date-released: "2026-11-25"
+version: "1.3"
+date-released: "2026-11-26"
 authors:
   - name: "Azad Bilik contributors"
     website: "https://azadbilik.org"
@@ -14,7 +14,7 @@ abstract: >-
   by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county,
   Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan
   by district, native languages by uezd at the 1897 census, and the raions of the Azerbaijan SSR
-  at the 1979 and 1989 censuses. Every figure carries its source.
+  at the 1939, 1979 and 1989 censuses. Every figure carries its source.
 keywords: [Azerbaijan, Azerbaijani literature, Nizami, miniatures, census, population, minorities, languages, 1897 census, Soviet census, open data]
 license: CC0-1.0
 repository-code: "https://github.com/azadbilik/data"

@@ -35,8 +35,8 @@ src="$site/atlas/1897/data"
 cp "$src/census-1897.csv" atlas/languages-1897/by-unit.csv
 cp "$src/NOTES.md" atlas/languages-1897/NOTES.md
 echo "atlas/languages-1897: $(($(wc -l < atlas/languages-1897/by-unit.csv) - 1)) rows"
-# Soviet raions at the 1979 and 1989 censuses (azadbilik.org/atlas/rayonlar)
+# Soviet raions at the 1939, 1979 and 1989 censuses (azadbilik.org/atlas/rayonlar)
 src="$site/atlas/rayonlar"
-cp "$src/data/raions-1979-1989.csv" atlas/raions-1979-1989/by-raion.csv
-cp "$src/README.md" atlas/raions-1979-1989/NOTES.md
-echo "atlas/raions-1979-1989: $(($(wc -l < atlas/raions-1979-1989/by-raion.csv) - 1)) rows"
+cp "$src/data/raions.csv" atlas/soviet-raions/by-raion.csv
+cp "$src/README.md" atlas/soviet-raions/NOTES.md
+echo "atlas/soviet-raions: $(($(wc -l < atlas/soviet-raions/by-raion.csv) - 1)) rows"

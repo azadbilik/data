@@ -1,7 +1,7 @@
 {
   "name": "azadbilik",
   "title": "Azad Bilik open data",
-  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1979 and 1989 censuses.",
+  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-25",
   "licenses": [
@@ -1242,18 +1242,18 @@
       }
     },
     {
-      "name": "raions-1979-1989",
-      "path": "atlas/raions-1979-1989/by-raion.csv",
+      "name": "soviet-raions",
+      "path": "atlas/soviet-raions/by-raion.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1979 and 1989, as the census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. See NOTES.md for how units were matched. 144 rows.",
+      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, as each census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. The 1939 raions differ from those of 1979–1989: see NOTES.md for how units were matched. 213 rows.",
       "schema": {
         "fields": [
           {
             "name": "soviet_unit",
             "type": "string",
-            "description": "Identifier, e.g. divichi, kasum-ismailov, stepanakert; the page azadbilik.org/atlas/rayonlar takes it as ?r=."
+            "description": "Identifier within its census, e.g. divichi, kasum-ismailov, konakhkend; the page azadbilik.org/atlas/rayonlar takes it as ?r= (with ?y=1939 for 1939)."
           },
           {
             "name": "name_az",
@@ -1281,7 +1281,7 @@
           {
             "name": "year",
             "type": "integer",
-            "description": "1979 or 1989."
+            "description": "1939, 1979 or 1989."
           },
           {
             "name": "population",
@@ -1296,7 +1296,7 @@
           {
             "name": "census_rows",
             "type": "string",
-            "description": "The census rows summed for it, as printed; \"=\" starts from an aggregate and \"-\" takes a row off it (Stepanakert 1979). Several values are separated by \";\"."
+            "description": "The census rows summed for it, as printed; \"=\" starts from an aggregate and \"-\" takes a row off it (Stepanakert 1979); a name ending in * takes every row it begins (the 1939 Baku city council's districts). Several values are separated by \";\"."
           },
           {
             "name": "today_districts",
@@ -1311,7 +1311,7 @@
           {
             "name": "drawn_with",
             "type": "string",
-            "description": "For raions merged since (Mir-Bashir + Mardakert, Martuni + Hadrut, Kasum-Ismailov + Shaumyan): the other one."
+            "description": "For raions merged since and drawn as one shape (e.g. Mir-Bashir + Mardakert, Martuni + Hadrut; in 1939 also Julfa + Abrakunis, Kuba + Konakhkend, Salyany + Khilli): the other one."
           },
           {
             "name": "source_url",

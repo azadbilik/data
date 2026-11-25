@@ -1,4 +1,73 @@
 soviet_unit,name_az,name_ru,name_en,kind,region,year,population,urban,census_rows,today_districts,fit,drawn_with,source_url
+baku,Bakı şəhər soveti,Бакинский горсовет,Baku city council,city,,1939,808690,787623,Бакинский гс >*,Baku City;Sumqayit City;Absheron District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kirovabad,Kirovabad,Кировабадский горсовет,Kirovabad,city,,1939,115118,98949,Кировабадский гс,Ganja City;Samukh District,approx,samukh,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+samukh,Samux,Самухский,Samukh,raion,,1939,8702,0,Самухский,Ganja City;Samukh District,approx,kirovabad,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+agdam,Ağdam,Агдамский,Agdam,raion,,1939,60663,10746,Агдамский,Agdam District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+agdash,Ağdaş,Агдашский,Agdash,raion,,1939,58064,10074,Агдашский,Agdash District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+aghjabadi,Ağcabədi,Агджабединский,Agjabedi,raion,,1939,35133,0,Агджабединский,Aghjabadi District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+akstafa,Ağstafa,Акстафинский,Akstafa,raion,,1939,31257,4025,Акстафаинский,Agstafa District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+astara,Astara,Астаринский,Astara,raion,,1939,28963,0,Астаринский,Astara District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+astrakhan-bazar,Həştərxanbazar,Астрахан-Базарский,Astrakhan-Bazar,raion,,1939,57395,0,Астрахан-Базарский,Jalilabad District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+barda,Bərdə,Бардинский,Barda,raion,,1939,37530,0,Бардинский,Barda District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+belokany,Balakən,Белоканский,Belokany,raion,,1939,32964,0,Белоканский,Balakan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+vartashen,Vartaşen,Варташенский,Vartashen,raion,,1939,21587,0,Варташенский,Oghuz District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+geokchay,Göyçay,Геокчайский,Geokchay,raion,,1939,46379,10537,Геокчайский,Goychay District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+jabrayil,Cəbrayıl,Джебраильский,Jebrail,raion,,1939,23502,0,Джебраильский,Jabrayil District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+dastafur,Dəstəfur,Дастафюрский,Dastafur,raion,,1939,9370,0,Достафюрский,Dashkasan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+zhdanov,Jdanov,Ждановский,Zhdanov,raion,,1939,15225,4170,Ждановский,Beylagan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+zaqatala,Zaqatala,Закатальский,Zakataly,raion,,1939,45854,8594,Закатальский,Zaqatala District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+zangilan,Zəngilan,Зангеланский,Zangelan,raion,,1939,21362,0,Зангеланский,Zangilan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+zardab,Zərdab,Зардобский,Zardob,raion,,1939,21173,0,Зардобский,Zardab District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+imishli,İmişli,Имишлинский,Imishli,raion,,1939,34465,0,Имишлинский,Imishli District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+ismailli,İsmayıllı,Исмаиллинский,Ismailly,raion,,1939,52445,2672,Исмаиллинский,Ismailli District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kazakh,Qazax,Казахский,Kazakh,raion,,1939,37218,6590,Казахский,Qazakh District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+karyagino,Qaryagin,Карягинский,Karyagino,raion,,1939,43487,5953,Карягинский,Fuzuli District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kakh,Qax,Кахский,Kakh,raion,,1939,26720,0,Кахский,Qakh District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kedabek,Gədəbəy,Кедабекский,Kedabek,raion,,1939,38096,0,Кедабекский,Gadabay District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kubatly,Qubadlı,Кубатлинский,Kubatly,raion,,1939,22026,0,Кубатлинский,Qubadli District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kusary,Qusar,Кусарский,Kusary,raion,,1939,53968,4329,Кусарский,Qusar District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kutkashen,Qutqaşen,Куткашенский,Kutkashen,raion,,1939,32243,0,Куткашенский,Qabala District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+lachin,Laçın,Лачинский,Lachin,raion,,1939,20356,1063,Лачинский,Lachin District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+lerik,Lerik,Лерикский,Lerik,raion,,1939,30443,0,Лерикский,Lerik District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+masally,Masallı,Масаллинский,Masally,raion,,1939,60477,0,Масаллинский,Masally District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+pushkin,Puşkin,Пушкинский,Pushkin,raion,,1939,18065,0,Пушкинский,Bilasuvar District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+tauz,Tovuz,Таузский,Tauz,raion,,1939,57529,4084,Таузский,Tovuz District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+ujar,Ucar,Уджарский,Ujar,raion,,1939,36009,3226,Уджарский,Ujar District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+khanlar,Xanlar,Ханларский,Khanlar,raion,,1939,43046,6562,Ханларский,Goygol District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+khachmas,Xaçmaz,Хачмасский,Khachmas,raion,,1939,53549,7761,Хачмасский,Khachmaz District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+shamkhor,Şamxor,Шамхорский,Shamkhor,raion,,1939,68765,3534,Шамхорский,Shamkir District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+yardymli,Yardımlı,Ярдымлинский,Yardymli,raion,,1939,23415,0,Ярдымлинский,Yardymli District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+ali-bayramli,Əli Bayramlı,Али-Байрамлинский,Ali-Bayramli,raion,,1939,34734,7540,Али-Байрамлинский,Shirvan City;Hajigabul District,approx,kazi-magomed,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kazi-magomed,Qazıməmməd,Кази-Магомедский,Kazi-Magomed,raion,,1939,20056,6358,Кази-Магомедский,Shirvan City;Hajigabul District,approx,ali-bayramli,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+divichi,Dəvəçi,Дивичинский,Divichi,raion,,1939,43956,0,Дивичинский,Shabran District;Siazan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+yevlakh,Yevlax,Евлахский,Yevlakh,raion,,1939,26749,10837,Евлахский,Yevlakh District;Yevlakh City;Mingachevir City,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kasum-ismailov,Qasım İsmayılov,Касум-Исмаиловский,Kasum-Ismailov,raion,,1939,36838,0,Касум-Измайловский,Goranboy District;Naftalan City,approx,shaumyan,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+shaumyan,Şaumyan,Шаумяновский,Shaumyan,raion,,1939,14032,0,Шаумяновский,Goranboy District;Naftalan City,approx,kasum-ismailov,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kelbajar,Kəlbəcər,Кельбаджарский,Kelbajar,raion,,1939,20931,0,Кельбаджарский,Kalbajar District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kuba,Quba,Кубинский,Kuba,raion,,1939,59384,17621,Кубинский,Quba District,same,konakhkend,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+konakhkend,Qonaqkənd,Конахкендский,Konakhkend,raion,,1939,20896,0,Конахкендский,Quba District,same,kuba,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+kurdamir,Kürdəmir,Кюрдамирский,Kurdamir,raion,,1939,58226,5869,Кюрдамирский,Kurdamir District;Agsu District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+lankaran,Lənkəran,Ленкоранский,Lenkoran,raion,,1939,58847,22130,Ленкоранский,Lankaran District;Lankaran City,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+nukha,Nuxa,Нухинский,Nukha,raion,,1939,76645,33367,Нухинский,Shaki District;Shaki City,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+sabirabad,Sabirabad,Сабирабадский,Sabirabad,raion,,1939,53392,6175,Сабирабадский,Sabirabad District;Saatly District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+salyan,Salyan,Сальянский,Salyany,raion,,1939,34694,13554,Сальянский,Salyan District;Neftchala District,approx,khilli,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+khilli,Xıllı,Хиллинский,Khilli,raion,,1939,25542,5868,Хиллинский,Salyan District;Neftchala District,approx,salyan,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+terter,Tərtər,Тертерский,Terter,raion,,1939,22128,0,Тертерский,Tartar District,approx,mardakert,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+mardakert,Mardakert,Мардакертский,Mardakert,raion,nkao,1939,40812,0,Нагорно-Карабахская авт.обл. > Мардакертский,Tartar District,approx,terter,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+khizi,Xızı,Хизинский,Khizy,raion,,1939,21141,0,Хизинский,Khizi District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+shemakha,Şamaxı,Шемахинский,Shemakha,raion,,1939,68173,8568,Шемахинский,Shamakhi District;Gobustan District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+nakhchivan-city,Naxçıvan şəhəri,г. Нахичевань,Nakhichevan (city),city,nax,1939,15694,15694,Нахичеванская АССР > г. Нахичевань,Nakhchivan City,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+julfa,Culfa,Джульфинский,Julfa,raion,nax,1939,5264,2530,Нахичеванская АССР > Джульфинский,Julfa District,same,abrakunis,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+abrakunis,Əbrəqunus,Абракунисский,Abrakunis,raion,nax,1939,9413,0,Нахичеванская АССР > Абракунисский,Julfa District,same,julfa,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+nakhchivan,Naxçıvan,Нахичеванский,Nakhichevan (raion),raion,nax,1939,23741,0,Нахичеванская АССР > Нахичеванский,Babek District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+norashen,Noraşen,Норашенский,Norashen,raion,nax,1939,39883,0,Нахичеванская АССР > Норашенский,Sharur District;Sadarak District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+ordubad,Ordubad,Ордубадский,Ordubad,raion,nax,1939,19108,4312,Нахичеванская АССР > Ордубадский,Ordubad District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+shahbuz,Şahbuz,Шахбузский,Shahbuz,raion,nax,1939,13593,0,Нахичеванская АССР > Шахбузский,Shahbuz District,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+stepanakert,Stepanakert,г. Степанакерт,Stepanakert,city,nkao,1939,10459,10459,Нагорно-Карабахская авт.обл. > г. Степанакерт,Khankendi City,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+stepanakert-raion,Stepanakert rayonu,Степанакертский,Stepanakert (raion),raion,nkao,1939,29321,0,Нагорно-Карабахская авт.обл. > Степанакертский,Khojaly District,approx,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+martuni,Martuni,Мартунинский,Martuni,raion,nkao,1939,32298,0,Нагорно-Карабахская авт.обл. > Мартунинский,Khojavend District,approx,hadrut,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+hadrut,Hadrut,Гадрутский,Hadrut,raion,nkao,1939,27128,0,Нагорно-Карабахская авт.обл. > Гадрутский,Khojavend District,approx,martuni,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
+shusha,Şuşa,Шушинский,Shusha,raion,nkao,1939,10819,5424,Нагорно-Карабахская авт.обл. > Шушинский,Shusha District;Shusha City,same,,https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php
 baku,Bakı,Баку,Baku,city,,1979,1549830,1549830,Бакинский горсовет,Baku City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
 baku,Bakı,Баку,Baku,city,,1989,1759307,1759307,Бакинский горсовет,Baku City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
 sumqayit,Sumqayıt,Сумгаит,Sumgait,city,,1979,204952,204952,Сумгаитский горсовет,Sumqayit City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php

@@ -98,15 +98,15 @@ const tables = {
     s('language', 'The group the map uses: azerbaijani, armenian, russian, avar, lezgian, lak, dargin, talysh, tat, kurdish, … (see NOTES.md).'),
     s('language_ru', 'The census\'s own name, e.g. Татарский, Кюринский, Остальные.'), i('men'), i('women'), i('both'), s('source_url', 'The Demoscope page.'),
   ], ['unit_ru', 'kind', 'language_ru'], 'atlas/languages-1897', 'by-unit'],
-  'raions-1979-1989': ['Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1979 and 1989, as the census drew them, with the districts of today that cover each one\'s land. Present population, total and urban, from Demoscope Weekly\'s tables; each year adds up to the republic\'s total. See NOTES.md for how units were matched.', [
-    s('soviet_unit', 'Identifier, e.g. divichi, kasum-ismailov, stepanakert; the page azadbilik.org/atlas/rayonlar takes it as ?r=.'), s('name_az', 'The Soviet-era name.'), s('name_ru'), s('name_en'),
+  'soviet-raions': ['Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, as each census drew them, with the districts of today that cover each one\'s land. Present population, total and urban, from Demoscope Weekly\'s tables; each year adds up to the republic\'s total. The 1939 raions differ from those of 1979–1989: see NOTES.md for how units were matched.', [
+    s('soviet_unit', 'Identifier within its census, e.g. divichi, kasum-ismailov, konakhkend; the page azadbilik.org/atlas/rayonlar takes it as ?r= (with ?y=1939 for 1939).'), s('name_az', 'The Soviet-era name.'), s('name_ru'), s('name_en'),
     s('kind', 'raion, or city (a city or city council of republic or oblast subordination).'), s('region', 'nax (Nakhchivan ASSR), nkao (Nagorno-Karabakh AO), or empty.'),
-    i('year', '1979 or 1989.'), i('population', 'Present population (наличное население).'), i('urban', 'Urban population.'),
-    list('census_rows', 'The census rows summed for it, as printed; "=" starts from an aggregate and "-" takes a row off it (Stepanakert 1979).'),
+    i('year', '1939, 1979 or 1989.'), i('population', 'Present population (наличное население).'), i('urban', 'Urban population.'),
+    list('census_rows', 'The census rows summed for it, as printed; "=" starts from an aggregate and "-" takes a row off it (Stepanakert 1979); a name ending in * takes every row it begins (the 1939 Baku city council\'s districts).'),
     list('today_districts', 'The districts of today it is drawn with, as geoBoundaries AZE ADM2 names them (as in census-az.csv); a merged pair shares its partner\'s.'),
     s('fit', 'same: today\'s districts cover its land closely; approx: the land moved a little since (NOTES.md says how).'),
-    s('drawn_with', 'For raions merged since (Mir-Bashir + Mardakert, Martuni + Hadrut, Kasum-Ismailov + Shaumyan): the other one.'), s('source_url'),
-  ], ['soviet_unit', 'year'], 'atlas/raions-1979-1989', 'by-raion'],
+    s('drawn_with', 'For raions merged since and drawn as one shape (e.g. Mir-Bashir + Mardakert, Martuni + Hadrut; in 1939 also Julfa + Abrakunis, Kuba + Konakhkend, Salyany + Khilli): the other one.'), s('source_url'),
+  ], ['soviet_unit', 'year'], 'atlas/soviet-raions', 'by-raion'],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });
 const foreign = {
@@ -136,7 +136,7 @@ for (const r of resources) for (const f of r.schema.fields) if (f.type === 'bool
 writeFileSync('datapackage.json', JSON.stringify({
   name: 'azadbilik',
   title: 'Azad Bilik open data',
-  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1979 and 1989 censuses.',
+  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses.',
   homepage: 'https://github.com/azadbilik/data',
   version: new Date().toISOString().slice(0, 10),
   licenses: [{ name: 'CC0-1.0', path: 'https://creativecommons.org/publicdomain/zero/1.0/', title: 'CC0 1.0 Universal' }],
