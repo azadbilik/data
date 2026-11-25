@@ -132,7 +132,7 @@ Updating: in a checkout of the site, `node atlas/1897/scripts/build.mjs`; then h
 
 ## Citing
 
-Cite as: *Azad Bilik contributors. Azad Bilik open data.* Zenodo. [doi:10.5281/zenodo.24543369](https://doi.org/10.5281/zenodo.24543369) (the concept DOI, always the latest release; v1.0 is [10.5281/zenodo.24543370](https://doi.org/10.5281/zenodo.24543370)). [`CITATION.cff`](CITATION.cff) has the same.
+Cite as: *Azad Bilik contributors. Azad Bilik open data.* Zenodo. [doi:10.5281/zenodo.24543369](https://doi.org/10.5281/zenodo.24543369) (the concept DOI, always the latest release; v1.1 is [10.5281/zenodo.24544125](https://doi.org/10.5281/zenodo.24544125), v1.0 [10.5281/zenodo.24543370](https://doi.org/10.5281/zenodo.24543370)). [`CITATION.cff`](CITATION.cff) has the same.
 
 ## Licence
 
