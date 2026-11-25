@@ -2,7 +2,7 @@
 
 Açıq məlumat dəstləri: Azərbaycan ədəbiyyatı və mədəniyyəti haqqında, sərbəst istifadə üçün (CC0).
 
-Open datasets about Azerbaijani literature and culture, free to use for anything (CC0). Part of [Azad Bilik](https://azadbilik.org).
+Open datasets about Azerbaijani literature and culture, free to use for anything (CC0): the catalogue of kitabxana.az, and an index of the miniatures painted for Nizami's and Fuzuli's poems, by scene and chapter. Part of [Azad Bilik](https://azadbilik.org).
 
 ## Kitabxana.az catalogue
 
@@ -52,6 +52,19 @@ The files are exported from kitabxana's database, so only its maintainers can re
 DATABASE_URL=postgresql://…/irs_az scripts/export-kitabxana.sh ../xerite   # CSVs; places from the map's build
 node scripts/datapackage.mjs                                              # row counts and version date
 ```
+
+## Miniatures by scene
+
+The index behind [the gallery](https://azadbilik.org/qalereya/): which scene of Nizami's *Khamsa* or Fuzuli's *Leyli və Məcnun* each miniature shows, and the chapter of the poem on kitabxana.az where that scene happens. Five centuries of manuscripts (Baghdad 1386 to a Tehran lithograph of 1883) line up against the text.
+
+| File | Rows | What |
+|---|---:|---|
+| [`qalereya/scenes.csv`](qalereya/scenes.csv) | 187 | The painted scenes of seven poems in story order, each with its chapter(s) and a line of the Azerbaijani text that places it there |
+| [`qalereya/pictures.csv`](qalereya/pictures.csv) | 771 | Miniatures, manuscript pages and textiles: date, manuscript, holder, licence, scene, chapter, and links to the image, its source and the passage |
+
+`pictures.chapter` → `kitabxana/works.csv`; `(pictures.poem, pictures.scene)` → `scenes.csv`. A scene was placed from the holder's title; `scene_confidence` is *medium* where the folio's position in its manuscript decided it. The images belong to their holders (the Met, the Walters, the Cleveland Museum of Art, Wikimedia Commons) under the licence given, all CC0 or public domain; the index itself is CC0.
+
+Updating: in a checkout of [azadbilik/qalereya](https://github.com/azadbilik/qalereya), `scripts/export.sh` and `node scripts/build.mjs`; then here `node scripts/export-qalereya.mjs ../qalereya` and `node scripts/datapackage.mjs`.
 
 ## Licence
 

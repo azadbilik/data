@@ -1,7 +1,7 @@
 {
-  "name": "azadbilik-kitabxana",
-  "title": "Kitabxana.az catalogue",
-  "description": "Authors, books, works, translations and places of the Kitabxana.az library of Azerbaijani literature.",
+  "name": "azadbilik",
+  "title": "Azad Bilik open data",
+  "description": "The catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-25",
   "licenses": [
@@ -513,6 +513,197 @@
             "reference": {
               "resource": "authors",
               "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "scenes",
+      "path": "qalereya/scenes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "The painted scenes of Nizami's Khamsa and Fuzuli's Leyli və Məcnun, in story order, each with the chapter(s) of the poem on kitabxana.az where it happens. 187 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "poem",
+            "type": "string",
+            "description": "collections.slug"
+          },
+          {
+            "name": "scene",
+            "type": "string",
+            "description": "Scene id, unique within its poem."
+          },
+          {
+            "name": "order",
+            "type": "integer",
+            "description": "Position in the story."
+          },
+          {
+            "name": "name_az",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "chapters",
+            "type": "string",
+            "description": "works.slug of the chapter(s) the scene happens in. Several values are separated by \";\"."
+          },
+          {
+            "name": "evidence_az",
+            "type": "string",
+            "description": "A line of the chapter's Azerbaijani text that places the scene there."
+          },
+          {
+            "name": "paintings",
+            "type": "integer",
+            "description": "Pictures of it in pictures.csv."
+          }
+        ],
+        "primaryKey": [
+          "poem",
+          "scene"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "poem",
+            "reference": {
+              "resource": "collections",
+              "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "pictures",
+      "path": "qalereya/pictures.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders', under the licence given; this index is CC0. 771 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Source and the holder's id, e.g. met-452734, walters-W609-49a, commons-122715070."
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "As the holder catalogues it."
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "description": "As the holder gives it."
+          },
+          {
+            "name": "year_start",
+            "type": "integer"
+          },
+          {
+            "name": "year_end",
+            "type": "integer"
+          },
+          {
+            "name": "manuscript",
+            "type": "string",
+            "description": "Shelfmark, when known."
+          },
+          {
+            "name": "museum",
+            "type": "string",
+            "description": "Who serves the image."
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "description": "Of the image: CC0 or Public domain."
+          },
+          {
+            "name": "poem",
+            "type": "string",
+            "description": "collections.slug"
+          },
+          {
+            "name": "scene",
+            "type": "string",
+            "description": "scenes.scene within the poem."
+          },
+          {
+            "name": "scene_confidence",
+            "type": "string",
+            "description": "high, medium (placed by the folio's position in its manuscript) or low."
+          },
+          {
+            "name": "chapter",
+            "type": "string",
+            "description": "works.slug of the passage it illustrates."
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "image_url",
+            "type": "string"
+          },
+          {
+            "name": "kitabxana_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "poem",
+            "reference": {
+              "resource": "collections",
+              "fields": "slug"
+            }
+          },
+          {
+            "fields": "chapter",
+            "reference": {
+              "resource": "works",
+              "fields": "slug"
+            }
+          },
+          {
+            "fields": [
+              "poem",
+              "scene"
+            ],
+            "reference": {
+              "resource": "scenes",
+              "fields": [
+                "poem",
+                "scene"
+              ]
             }
           }
         ],

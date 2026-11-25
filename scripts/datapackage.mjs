@@ -48,6 +48,19 @@ const tables = {
     s('place_az'), s('place_en'), s('place_ru'), { name: 'lat', type: 'number' }, { name: 'lng', type: 'number' },
     s('basis', 'wikidata (the person\'s item), name (the place in their name, e.g. Şəkili) or mumtaz (Salman Mümtaz\'s note in «El şairləri»).'),
   ]],
+  // The gallery (azadbilik.org/qalereya): miniatures and the scenes of the poems they illustrate
+  scenes: ['The painted scenes of Nizami\'s Khamsa and Fuzuli\'s Leyli və Məcnun, in story order, each with the chapter(s) of the poem on kitabxana.az where it happens.', [
+    s('poem', 'collections.slug'), s('scene', 'Scene id, unique within its poem.'), i('order', 'Position in the story.'),
+    s('name_az'), s('name_en'), list('chapters', 'works.slug of the chapter(s) the scene happens in.'),
+    s('evidence_az', 'A line of the chapter\'s Azerbaijani text that places the scene there.'), i('paintings', 'Pictures of it in pictures.csv.'),
+  ], ['poem', 'scene'], 'qalereya'],
+  pictures: ['Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders\', under the licence given; this index is CC0.', [
+    s('id', 'Source and the holder\'s id, e.g. met-452734, walters-W609-49a, commons-122715070.'), s('title', 'As the holder catalogues it.'), s('date', 'As the holder gives it.'),
+    i('year_start'), i('year_end'), s('manuscript', 'Shelfmark, when known.'), s('museum', 'Who serves the image.'),
+    s('license', 'Of the image: CC0 or Public domain.'), s('poem', 'collections.slug'), s('scene', 'scenes.scene within the poem.'),
+    s('scene_confidence', 'high, medium (placed by the folio\'s position in its manuscript) or low.'),
+    s('chapter', 'works.slug of the passage it illustrates.'), s('source_url'), s('image_url'), s('kitabxana_url'),
+  ], ['id'], 'qalereya'],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });
 const foreign = {
@@ -55,10 +68,12 @@ const foreign = {
   works: [fk('author', 'authors'), fk('collection', 'collections')],
   translations: [fk('work', 'works')],
   places: [fk('author', 'authors')],
+  scenes: [fk('poem', 'collections')],
+  pictures: [fk('poem', 'collections'), fk('chapter', 'works'), { fields: ['poem', 'scene'], reference: { resource: 'scenes', fields: ['poem', 'scene'] } }],
 };
 
-const resources = Object.entries(tables).map(([name, [description, fields, pk]]) => {
-  const path = `kitabxana/${name}.csv`;
+const resources = Object.entries(tables).map(([name, [description, fields, pk, dir = 'kitabxana']]) => {
+  const path = `${dir}/${name}.csv`;
   // records, not lines: a quoted title may hold a line break
   let rows = -1, quoted = false;
   for (const ch of readFileSync(path, 'utf8')) if (ch === '"') quoted = !quoted; else if (ch === '\n' && !quoted) rows++;
@@ -73,9 +88,9 @@ const resources = Object.entries(tables).map(([name, [description, fields, pk]])
 for (const r of resources) for (const f of r.schema.fields) if (f.type === 'boolean') Object.assign(f, { trueValues: ['true'], falseValues: ['false'] });
 
 writeFileSync('datapackage.json', JSON.stringify({
-  name: 'azadbilik-kitabxana',
-  title: 'Kitabxana.az catalogue',
-  description: 'Authors, books, works, translations and places of the Kitabxana.az library of Azerbaijani literature.',
+  name: 'azadbilik',
+  title: 'Azad Bilik open data',
+  description: 'The catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter.',
   homepage: 'https://github.com/azadbilik/data',
   version: new Date().toISOString().slice(0, 10),
   licenses: [{ name: 'CC0-1.0', path: 'https://creativecommons.org/publicdomain/zero/1.0/', title: 'CC0 1.0 Universal' }],
