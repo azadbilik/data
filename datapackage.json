@@ -601,7 +601,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders', under the licence given; this index is CC0. 771 rows.",
+      "description": "Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders', under the licence given; this index is CC0. 782 rows.",
       "schema": {
         "fields": [
           {
@@ -640,7 +640,7 @@
           {
             "name": "license",
             "type": "string",
-            "description": "Of the image: CC0 or Public domain."
+            "description": "Of the image: CC0, Public domain, or CC BY 4.0 (credit the holder)."
           },
           {
             "name": "poem",

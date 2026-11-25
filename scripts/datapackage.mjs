@@ -57,7 +57,7 @@ const tables = {
   pictures: ['Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders\', under the licence given; this index is CC0.', [
     s('id', 'Source and the holder\'s id, e.g. met-452734, walters-W609-49a, commons-122715070.'), s('title', 'As the holder catalogues it.'), s('date', 'As the holder gives it.'),
     i('year_start'), i('year_end'), s('manuscript', 'Shelfmark, when known.'), s('museum', 'Who serves the image.'),
-    s('license', 'Of the image: CC0 or Public domain.'), s('poem', 'collections.slug'), s('scene', 'scenes.scene within the poem.'),
+    s('license', 'Of the image: CC0, Public domain, or CC BY 4.0 (credit the holder).'), s('poem', 'collections.slug'), s('scene', 'scenes.scene within the poem.'),
     s('scene_confidence', 'high, medium (placed by the folio\'s position in its manuscript) or low.'),
     s('chapter', 'works.slug of the passage it illustrates.'), s('source_url'), s('image_url'), s('kitabxana_url'),
   ], ['id'], 'qalereya'],

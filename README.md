@@ -60,9 +60,9 @@ The index behind [the gallery](https://azadbilik.org/qalereya/): which scene of 
 | File | Rows | What |
 |---|---:|---|
 | [`qalereya/scenes.csv`](qalereya/scenes.csv) | 187 | The painted scenes of seven poems in story order, each with its chapter(s) and a line of the Azerbaijani text that places it there |
-| [`qalereya/pictures.csv`](qalereya/pictures.csv) | 771 | Miniatures, manuscript pages and textiles: date, manuscript, holder, licence, scene, chapter, and links to the image, its source and the passage |
+| [`qalereya/pictures.csv`](qalereya/pictures.csv) | 782 | Miniatures, manuscript pages and textiles: date, manuscript, holder, licence, scene, chapter, and links to the image, its source and the passage |
 
-`pictures.chapter` → `kitabxana/works.csv`; `(pictures.poem, pictures.scene)` → `scenes.csv`. A scene was placed from the holder's title; `scene_confidence` is *medium* where the folio's position in its manuscript decided it. The images belong to their holders (the Met, the Walters, the Cleveland Museum of Art, Wikimedia Commons) under the licence given, all CC0 or public domain; the index itself is CC0.
+`pictures.chapter` → `kitabxana/works.csv`; `(pictures.poem, pictures.scene)` → `scenes.csv`. A scene was placed from the holder's title; `scene_confidence` is *medium* where the folio's position in its manuscript decided it. The images belong to their holders (the Met, the Walters, the Cleveland Museum of Art, the Rijksmuseum, the Chester Beatty Library, Wikimedia Commons) under the licence given: CC0 or public domain, except two Chester Beatty pages under CC BY 4.0, to be credited «© The Trustees of the Chester Beatty Library, Dublin». The index itself is CC0.
 
 Updating: in a checkout of [azadbilik/qalereya](https://github.com/azadbilik/qalereya), `scripts/export.sh` and `node scripts/build.mjs`; then here `node scripts/export-qalereya.mjs ../qalereya` and `node scripts/datapackage.mjs`.
 

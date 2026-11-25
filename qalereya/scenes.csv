@@ -43,8 +43,8 @@ nizami-heft-peyker,bishr-and-malikha,17,Məlixa quyuda boğulur (Bişr hekayəti
 nizami-heft-peyker,red-pavilion,18,Bəhram Qırmızı günbəzdə slavyan gözəli ilə,Bahram in the red pavilion with the Slavic princess (Tuesday),nizami-yeddi-gozel-29,Qırmızı günbədə düzəldi yola.,13
 nizami-heft-peyker,turquoise-pavilion,19,Bəhram Firuzəyi günbəzdə məğribli gözəl ilə,Bahram in the turquoise pavilion with the Maghribi princess (Wednesday),nizami-yeddi-gozel-30,Firuzə günbədə eylədi pərvaz.,14
 nizami-heft-peyker,mahan-and-the-demon,20,Mahanın gözəli əjdahaya dönür,Mahan's beloved turns into a demon,nizami-yeddi-gozel-30,"Gördü ki, ay dönüb bir əjdahaya.",1
-nizami-heft-peyker,sandalwood-pavilion,21,Bəhram Səndəli günbəzdə Çin gözəli ilə,Bahram in the sandalwood pavilion with the Chinese princess (Thursday),nizami-yeddi-gozel-31,Səndəl rəngindəki günbədə gəldi.,10
-nizami-heft-peyker,white-pavilion,22,Bəhram Ağ günbəzdə iranlı gözəl ilə,Bahram in the white pavilion with the Persian princess (Friday),nizami-yeddi-gozel-32,Həmən ağ günbədin üstünə gəldi.,19
+nizami-heft-peyker,sandalwood-pavilion,21,Bəhram Səndəli günbəzdə Çin gözəli ilə,Bahram in the sandalwood pavilion with the Chinese princess (Thursday),nizami-yeddi-gozel-31,Səndəl rəngindəki günbədə gəldi.,11
+nizami-heft-peyker,white-pavilion,22,Bəhram Ağ günbəzdə iranlı gözəl ilə,Bahram in the white pavilion with the Persian princess (Friday),nizami-yeddi-gozel-32,Həmən ağ günbədin üstünə gəldi.,20
 nizami-heft-peyker,garden-maidens-bathing,23,Bağ sahibi hovuzda çimən qızları görür,The owner of the garden sees the maidens bathing in his pool,nizami-yeddi-gozel-32,"O gözəllər suda tez çimən kimi,",1
 nizami-heft-peyker,shepherd-and-dog,24,Bəhram itini ağacdan asmış çobanla,Bahram and the shepherd who hanged his dog,nizami-yeddi-gozel-34,"Ağacdan asılıb bir it aşağı,",7
 nizami-heft-peyker,vizier-hanged,25,Zalım vəzirin dar ağacından asılması,The unjust vizier is hanged,nizami-yeddi-gozel-36,"Diriykən asıldı dardan o alçaq,",2
@@ -57,9 +57,9 @@ nizami-leyli-va-macnun,layla-in-the-palm-grove,5,Leyli qızlarla xurmalıqda,Lay
 nizami-leyli-va-macnun,nawfal-meets-majnun,6,Nofəl Məcnunla tanış olur,Nawfal meets Majnun in the desert,nizami-leyli-ve-mecnun-21,"Nofəl adlanılan bir igid vardı,",1
 nizami-leyli-va-macnun,nawfal-battle,7,Nofəlin Leylinin qəbiləsi ilə döyüşü,Nawfal battles Layla's tribe,nizami-leyli-ve-mecnun-22;nizami-leyli-ve-mecnun-24,"Məcnunsa döyüşdən uzaq düşərək,",10
 nizami-leyli-va-macnun,majnun-frees-gazelles,8,Məcnun ahuları azad edir,Majnun frees the gazelles,nizami-leyli-ve-mecnun-25,"Ahular başından götür tələni,",0
-nizami-leyli-va-macnun,old-woman-leads-majnun,9,Qarı zəncirli Məcnunu Leylinin çadırına gətirir,The old woman leads Majnun in chains to Layla's tent,nizami-leyli-ve-mecnun-27,Boynu zəncirlini çəkib dartırdı.,7
+nizami-leyli-va-macnun,old-woman-leads-majnun,9,Qarı zəncirli Məcnunu Leylinin çadırına gətirir,The old woman leads Majnun in chains to Layla's tent,nizami-leyli-ve-mecnun-27,Boynu zəncirlini çəkib dartırdı.,8
 nizami-leyli-va-macnun,layla-strikes-ibn-salam,10,Leyli İbn-Səlama sillə vurur,"Layla strikes Ibn Salam, who falls senseless",nizami-leyli-ve-mecnun-28,"Qızın silləsindən o birdən-birə,",1
-nizami-leyli-va-macnun,father-visits-majnun,11,Atası səhrada Məcnunun görüşünə gəlir,Majnun's father visits him in the wilderness,nizami-leyli-ve-mecnun-30;nizami-leyli-ve-mecnun-31,"Ata qucaqladı yazıq oğlunu,",3
+nizami-leyli-va-macnun,father-visits-majnun,11,Atası səhrada Məcnunun görüşünə gəlir,Majnun's father visits him in the wilderness,nizami-leyli-ve-mecnun-30;nizami-leyli-ve-mecnun-31,"Ata qucaqladı yazıq oğlunu,",4
 nizami-leyli-va-macnun,majnun-at-fathers-grave,12,Məcnun atasının qəbri üstündə,Majnun weeps at his father's grave,nizami-leyli-ve-mecnun-32,Qaçdı atasının qəbrinə sarı.,2
 nizami-leyli-va-macnun,majnun-with-animals,13,Məcnun vəhşi heyvanlar arasında,Majnun among the wild animals,nizami-leyli-ve-mecnun-33,Vəhşilər olmuşdu Məcnuna həmdəm:,12
 nizami-leyli-va-macnun,salim-visits-majnun,14,Dayısı Səlim Amiri Məcnunun görüşünə gəlir,Majnun's uncle Salim Amiri visits him,nizami-leyli-ve-mecnun-37,"Ona deyirdilər Səlim Amiri,",4
@@ -144,10 +144,10 @@ nizami-xerednama,death-of-iskandar,15,İskəndərin ölümü,The death of Iskand
 nizami-xerednama,iskandars-coffin,16,"İskəndərin tabutu, bir əli tabutdan kənarda","Iskandar's coffin, one hand left outside",nizami-iqbalname-39,Qoyuldu bir əli tabutdan kənar.,2
 nizami-xosrov-va-sirin,atabak-enthroned,1,Atabəy Məhəmməd Cahan Pəhləvan taxtda,Atabak Muhammad Jahan Pahlavan enthroned (dedication),nizami-xosrov-ve-sirin-8,İki sahib adı oldu Məhəmməd.,1
 nizami-xosrov-va-sirin,khusraw-begs-hormuz-pardon,2,Xosrov atası Hürmüzdən əfv diləyir,Khusraw begs his father Hurmuz for pardon,nizami-xosrov-ve-sirin-16,"Ələ qılınc aldı, geydi bir kəfən,",4
-nizami-xosrov-va-sirin,shapur-shows-portrait,3,Şapur Şirinə Xosrovun şəklini göstərir,Shapur shows Shirin the portrait of Khusraw,nizami-xosrov-ve-sirin-20;nizami-xosrov-ve-sirin-21;nizami-xosrov-ve-sirin-22,Xosrovun surəti dəydi gözünə.,8
+nizami-xosrov-va-sirin,shapur-shows-portrait,3,Şapur Şirinə Xosrovun şəklini göstərir,Shapur shows Shirin the portrait of Khusraw,nizami-xosrov-ve-sirin-20;nizami-xosrov-ve-sirin-21;nizami-xosrov-ve-sirin-22,Xosrovun surəti dəydi gözünə.,9
 nizami-xosrov-va-sirin,shapur-reveals-himself,4,Şapur özünü Şirinə tanıdır,Shapur reveals himself to Shirin,nizami-xosrov-ve-sirin-23,Xosrovun şəklini mən yaratmışam.,1
 nizami-xosrov-va-sirin,shirin-flees-on-shabdiz,5,Şirin Şəbdizə minib Mədainə qaçır,Shirin rides off on Shabdiz,nizami-xosrov-ve-sirin-24,"Şəbdiz belindəydi qoşun sındıran,",0
-nizami-xosrov-va-sirin,khusraw-sees-shirin-bathing,6,Xosrov çeşmədə çimən Şirini görür,Khusraw sees Shirin bathing,nizami-xosrov-ve-sirin-25,Göy çeşməyə girmiş o şux güləndam.,26
+nizami-xosrov-va-sirin,khusraw-sees-shirin-bathing,6,Xosrov çeşmədə çimən Şirini görür,Khusraw sees Shirin bathing,nizami-xosrov-ve-sirin-25,Göy çeşməyə girmiş o şux güləndam.,27
 nizami-xosrov-va-sirin,shirin-arrives-at-madain,7,Şirin Mədaində Xosrovun sarayına gəlir,Shirin arrives at Khusraw's palace in Mada'in,nizami-xosrov-ve-sirin-26,Mədain qəsrinə sürdü Şəbdizi.,1
 nizami-xosrov-va-sirin,khusraw-at-mahin-banu,8,Xosrov Ərməndə Məhin Banunun qonağı olur,Khusraw is received by Mahin Banu in Armenia,nizami-xosrov-ve-sirin-28,"Banu özü gəldi şah dərgahına,",1
 nizami-xosrov-va-sirin,shapur-returns-to-khusraw,9,Şapur Xosrovun yanına qayıdır,Shapur returns to Khusraw,nizami-xosrov-ve-sirin-29,"""Şapuru hüzura buraxın"" dedi,",1
@@ -161,14 +161,14 @@ nizami-xosrov-va-sirin,khusraw-at-caesars-court,16,"Xosrov Rumda Qeysərin saray
 nizami-xosrov-va-sirin,battle-with-bahram-chubin,17,Xosrovun Bəhram Çubinlə döyüşü,Khusraw battles Bahram Chubin,nizami-xosrov-ve-sirin-43,Bu döyüş yanında məhşər oyundur.,10
 nizami-xosrov-va-sirin,shirin-laments,18,Şirin Xosrovun ayrılığına ağlayır,Shirin weeps over Khusraw's absence,nizami-xosrov-ve-sirin-45,"Yuyub ətəyini göz yaşı ilə,",1
 nizami-xosrov-va-sirin,death-of-bahram-announced,19,Xosrova Bəhramın ölüm xəbəri gəlir,Khusraw hears of Bahram Chubin's death,nizami-xosrov-ve-sirin-48,Bəhramın nəsibi oldu bir taxta.,1
-nizami-xosrov-va-sirin,barbad-plays,20,Barbəd Xosrovun məclisində otuz nəğmə çalır,Barbad plays his thirty melodies for Khusraw,nizami-xosrov-ve-sirin-49;nizami-xosrov-ve-sirin-50,Sərxoş bülbül kimi gələndə Barbəd,3
+nizami-xosrov-va-sirin,barbad-plays,20,Barbəd Xosrovun məclisində otuz nəğmə çalır,Barbad plays his thirty melodies for Khusraw,nizami-xosrov-ve-sirin-49;nizami-xosrov-ve-sirin-50,Sərxoş bülbül kimi gələndə Barbəd,4
 nizami-xosrov-va-sirin,farhad-before-shirin,21,Şapur Fərhadı Şirinin hüzuruna gətirir,Shapur brings Farhad before Shirin,nizami-xosrov-ve-sirin-53,"Pərdə qabağında durmuşdu Fərhad,",5
 nizami-xosrov-va-sirin,milk-channel,22,Fərhad Şirin üçün süd arxı çəkir,Farhad carves a milk channel for Shirin,nizami-xosrov-ve-sirin-53,"Gördü süd arxını, hovzu, mərməri.",4
 nizami-xosrov-va-sirin,khusraw-learns-of-farhad,23,Xosrov Fərhadın eşqindən xəbər tutur,Khusraw is told of Farhad's love for Shirin,nizami-xosrov-ve-sirin-55,El ağzına düşüb sənətkar Fərhad.,1
 nizami-xosrov-va-sirin,farhad-before-khusraw,24,Fərhad Xosrovun hüzurunda: münazirə,Farhad before Khusraw: their debate,nizami-xosrov-ve-sirin-56;nizami-xosrov-ve-sirin-57,"Xosrov əvvəl sordu: ""Hardansan, cavan?""",10
 nizami-xosrov-va-sirin,farhad-carves-bisutun,25,"Fərhad Bisütun dağını çapır, Şirinin şəklini yonur",Farhad carves Mount Bisutun,nizami-xosrov-ve-sirin-58,"Bisütunda şəkli qurtardı Fərhad,",2
 nizami-xosrov-va-sirin,shirin-visits-farhad,26,Şirin Bisütunda Fərhadın yanına gəlir,Shirin visits Farhad at Bisutun,nizami-xosrov-ve-sirin-59,"Fərhad südü aldı onun əlindən,",4
-nizami-xosrov-va-sirin,farhad-carries-shirin,27,Fərhad Şirini atı ilə birlikdə çiyninə alır,Farhad carries Shirin and her horse,nizami-xosrov-ve-sirin-59,"Atıyla qaldırdı o şahsuvarı,",10
+nizami-xosrov-va-sirin,farhad-carries-shirin,27,Fərhad Şirini atı ilə birlikdə çiyninə alır,Farhad carries Shirin and her horse,nizami-xosrov-ve-sirin-59,"Atıyla qaldırdı o şahsuvarı,",11
 nizami-xosrov-va-sirin,death-of-farhad,28,Fərhadın ölümü,Death of Farhad,nizami-xosrov-ve-sirin-60,"""Şirin! Şirin!"" deyib, yazıq verdi can.",2
 nizami-xosrov-va-sirin,khusraw-and-shakar,29,Xosrov İsfahanda Şəkərin məclisində,Khusraw and Shakar of Isfahan,nizami-xosrov-ve-sirin-65,İsfahanda vardır bir nazlı Şəkər.,3
 nizami-xosrov-va-sirin,khusraw-at-shirins-castle,30,Xosrov Şirinin qəsrinə gəlir,Khusraw at Shirin's castle,nizami-xosrov-ve-sirin-67;nizami-xosrov-ve-sirin-68,"Qalxdı bir ay kimi o qəsrin üstə,",17
