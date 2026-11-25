@@ -14,3 +14,19 @@ cat "$src/aze-census-notes.md" > atlas/population/NOTES.md
 printf '\n\n---\n\n' >> atlas/population/NOTES.md
 cat "$src/irn-census-notes.md" >> atlas/population/NOTES.md
 echo "atlas/population: $(($(wc -l < atlas/population/census-az.csv) - 1)) + $(($(wc -l < atlas/population/census-ir.csv) - 1)) census rows"
+
+# Azerbaijani communities beyond the Republic (Georgia, Dagestan, Soviet Armenia)
+src="$site/atlas/icmalar/data"
+cp "$src/communities-geo.csv" atlas/communities/georgia.csv
+cp "$src/communities-dag.csv" atlas/communities/dagestan.csv
+cp "$src/communities-arm.csv" atlas/communities/armenia.csv
+{ cat "$src/communities-totals.csv"; tail -n +2 "$src/communities-arm-totals.csv" | sed 's/^/Armenia,/'; } > atlas/communities/totals.csv
+cat "$src/communities-geo-dag-notes.md" > atlas/communities/NOTES.md
+printf '\n\n---\n\n' >> atlas/communities/NOTES.md
+cat "$src/communities-arm-notes.md" >> atlas/communities/NOTES.md
+# The peoples of Azerbaijan by district
+src="$site/atlas/xalqlar/data"
+cp "$src/peoples-az.csv" atlas/peoples/by-district.csv
+cp "$src/peoples-az-totals.csv" atlas/peoples/totals.csv
+cp "$src/peoples-az-notes.md" atlas/peoples/NOTES.md
+echo "atlas/communities, atlas/peoples copied"

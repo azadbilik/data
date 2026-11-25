@@ -1,7 +1,7 @@
 {
   "name": "azadbilik",
   "title": "Azad Bilik open data",
-  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county.",
+  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, and the peoples of Azerbaijan by district.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-25",
   "licenses": [
@@ -881,6 +881,278 @@
         "primaryKey": [
           "country",
           "year"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "communities-georgia",
+      "path": "atlas/communities/georgia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Azerbaijanis and total population of each district of Georgia at each census; a district not published or redrawn is absent, never estimated: see NOTES.md. 371 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "shapeName",
+            "type": "string",
+            "description": "The district as geoBoundaries GEO ADM2 names it."
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Census year."
+          },
+          {
+            "name": "azerbaijanis",
+            "type": "integer",
+            "description": "Azerbaijanis counted (\"Turks\", тюрки, in 1926)."
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "shapeName",
+          "year"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "communities-dagestan",
+      "path": "atlas/communities/dagestan.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Azerbaijanis and total population of each district of Dagestan at each census; a district not published or redrawn is absent, never estimated: see NOTES.md. 205 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "shapeName",
+            "type": "string",
+            "description": "The district as geoBoundaries RUS ADM2 (Dagestan) names it."
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Census year."
+          },
+          {
+            "name": "azerbaijanis",
+            "type": "integer",
+            "description": "Azerbaijanis counted (\"Turks\", тюрки, in 1926)."
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "shapeName",
+          "year"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "communities-armenia",
+      "path": "atlas/communities/armenia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Azerbaijanis and total population of each district of Soviet Armenia at each census; a district not published or redrawn is absent, never estimated: see NOTES.md. 38 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "shapeName",
+            "type": "string",
+            "description": "The district as geoBoundaries ARM ADM2 names it."
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Census year."
+          },
+          {
+            "name": "azerbaijanis",
+            "type": "integer",
+            "description": "Azerbaijanis counted (\"Turks\", тюрки, in 1926)."
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "shapeName",
+          "year"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "communities-totals",
+      "path": "atlas/communities/totals.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Azerbaijanis counted in Georgia, Dagestan and Soviet Armenia at each census, with the total population. 23 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Georgia, Dagestan or Armenia."
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "azerbaijanis",
+            "type": "integer"
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "region",
+          "year"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "peoples-by-district",
+      "path": "atlas/peoples/by-district.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Each people counted in each district and city of the Republic of Azerbaijan at the censuses of 1979, 1999, 2009 and 2019, with the district's total; category changes (Talysh, Kryz, Budukh, Khinalug, Ingiloys) in NOTES.md. 4,662 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "shapeName",
+            "type": "string",
+            "description": "As geoBoundaries AZE ADM2 names it."
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "people",
+            "type": "string",
+            "description": "English name, e.g. Lezgins, Talysh, Udi."
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "The district's whole population at that census."
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "shapeName",
+          "year",
+          "people"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "peoples-totals",
+      "path": "atlas/peoples/totals.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Each people counted in the Republic of Azerbaijan at each census, 1959–2019. 193 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "people",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "people"
         ],
         "missingValues": [
           ""

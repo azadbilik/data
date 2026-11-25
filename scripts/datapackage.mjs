@@ -75,6 +75,21 @@ const tables = {
   totals: ['Each side\'s official census total: the Republic of Azerbaijan (az) and the four provinces of Iranian Azerbaijan (ir).', [
     s('country', 'az or ir.'), i('year'), i('population'), s('source_url'),
   ], ['country', 'year'], 'atlas/population'],
+  // Azerbaijani communities beyond the Republic: Azerbaijanis counted by district (azadbilik.org/atlas/icmalar)
+  ...Object.fromEntries([['georgia', 'Georgia', 'geoBoundaries GEO ADM2'], ['dagestan', 'Dagestan', 'geoBoundaries RUS ADM2 (Dagestan)'], ['armenia', 'Soviet Armenia', 'geoBoundaries ARM ADM2']].map(([file, where, units]) => [`communities-${file}`, [
+    `Azerbaijanis and total population of each district of ${where} at each census; a district not published or redrawn is absent, never estimated: see NOTES.md.`, [
+      s('shapeName', `The district as ${units} names it.`), i('year', 'Census year.'), i('azerbaijanis', 'Azerbaijanis counted ("Turks", тюрки, in 1926).'), i('total'), s('source_url'),
+    ], ['shapeName', 'year'], 'atlas/communities', file]])),
+  'communities-totals': ['Azerbaijanis counted in Georgia, Dagestan and Soviet Armenia at each census, with the total population.', [
+    s('region', 'Georgia, Dagestan or Armenia.'), i('year'), i('azerbaijanis'), i('total'), s('source_url'),
+  ], ['region', 'year'], 'atlas/communities', 'totals'],
+  // The peoples of Azerbaijan by district (azadbilik.org/atlas/xalqlar)
+  'peoples-by-district': ['Each people counted in each district and city of the Republic of Azerbaijan at the censuses of 1979, 1999, 2009 and 2019, with the district\'s total; category changes (Talysh, Kryz, Budukh, Khinalug, Ingiloys) in NOTES.md.', [
+    s('shapeName', 'As geoBoundaries AZE ADM2 names it.'), i('year'), s('people', 'English name, e.g. Lezgins, Talysh, Udi.'), i('count'), i('total', 'The district\'s whole population at that census.'), s('source_url'),
+  ], ['shapeName', 'year', 'people'], 'atlas/peoples', 'by-district'],
+  'peoples-totals': ['Each people counted in the Republic of Azerbaijan at each census, 1959–2019.', [
+    i('year'), s('people'), i('count'), s('source_url'),
+  ], ['year', 'people'], 'atlas/peoples', 'totals'],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });
 const foreign = {
@@ -86,8 +101,8 @@ const foreign = {
   pictures: [fk('poem', 'collections'), fk('chapter', 'works'), { fields: ['poem', 'scene'], reference: { resource: 'scenes', fields: ['poem', 'scene'] } }],
 };
 
-const resources = Object.entries(tables).map(([name, [description, fields, pk, dir = 'culture/kitabxana']]) => {
-  const path = `${dir}/${name}.csv`;
+const resources = Object.entries(tables).map(([name, [description, fields, pk, dir = 'culture/kitabxana', file = name]]) => {
+  const path = `${dir}/${file}.csv`;
   // records, not lines: a quoted title may hold a line break
   let rows = -1, quoted = false;
   for (const ch of readFileSync(path, 'utf8')) if (ch === '"') quoted = !quoted; else if (ch === '\n' && !quoted) rows++;
@@ -104,7 +119,7 @@ for (const r of resources) for (const f of r.schema.fields) if (f.type === 'bool
 writeFileSync('datapackage.json', JSON.stringify({
   name: 'azadbilik',
   title: 'Azad Bilik open data',
-  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county.',
+  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, and the peoples of Azerbaijan by district.',
   homepage: 'https://github.com/azadbilik/data',
   version: new Date().toISOString().slice(0, 10),
   licenses: [{ name: 'CC0-1.0', path: 'https://creativecommons.org/publicdomain/zero/1.0/', title: 'CC0 1.0 Universal' }],

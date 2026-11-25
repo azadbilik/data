@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Azad Bilik open data"
+message: "If you use these data, please cite them as below."
+type: dataset
+authors:
+  - name: "Azad Bilik contributors"
+    website: "https://azadbilik.org"
+abstract: >-
+  Open data about Azerbaijani culture and its geography. Culture: the catalogue of the
+  Kitabxana.az library of Azerbaijani literature and the Azad Bilik gallery's index of miniatures
+  by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county,
+  Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, and the peoples of Azerbaijan
+  by district. Every figure carries its source.
+keywords: [Azerbaijan, Azerbaijani literature, Nizami, miniatures, census, population, minorities, languages, open data]
+license: CC0-1.0
+repository-code: "https://github.com/azadbilik/data"
+url: "https://azadbilik.org"

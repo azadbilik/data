@@ -93,6 +93,32 @@ A unit that did not exist yet, or whose older unit was much larger, is absent fo
 
 Updating: in a checkout of the site, `node atlas/ehali/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 
+## Azerbaijani communities beyond the Republic
+
+The figures behind [the communities map](https://azadbilik.org/atlas/icmalar/): Azerbaijanis counted in each district of Georgia, Dagestan and Soviet Armenia, 1926–2021.
+
+| File | Rows | What |
+|---|---:|---|
+| [`atlas/communities/georgia.csv`](atlas/communities/georgia.csv) | 371 | Georgia by district, 1926–2014 |
+| [`atlas/communities/dagestan.csv`](atlas/communities/dagestan.csv) | 205 | Dagestan by district, 1926–2021 |
+| [`atlas/communities/armenia.csv`](atlas/communities/armenia.csv) | 38 | Soviet Armenia by district (1939; Yerevan for other years) |
+| [`atlas/communities/totals.csv`](atlas/communities/totals.csv) | 23 | Each country's total per census |
+| [`atlas/communities/NOTES.md`](atlas/communities/NOTES.md) | | Mappings and gaps |
+
+## The peoples of Azerbaijan
+
+The figures behind [the peoples and languages map](https://azadbilik.org/atlas/xalqlar/): every people counted in each district of the Republic of Azerbaijan (1979, 1999, 2009, 2019) and in the Republic (1959–2019).
+
+| File | Rows | What |
+|---|---:|---|
+| [`atlas/peoples/by-district.csv`](atlas/peoples/by-district.csv) | 4,662 | Each people by district and census, with the district's total |
+| [`atlas/peoples/totals.csv`](atlas/peoples/totals.csv) | 193 | Each people in the Republic per census |
+| [`atlas/peoples/NOTES.md`](atlas/peoples/NOTES.md) | | Census category changes (Talysh, Kryz, Budukh, Khinalug, Ingiloys) and gaps |
+
+## Citing
+
+[`CITATION.cff`](CITATION.cff) gives the citation; each release is archived on Zenodo with a DOI.
+
 ## Licence
 
 The data is [CC0 1.0](LICENSE): no rights reserved, no attribution required. A link back to kitabxana.az is appreciated.
