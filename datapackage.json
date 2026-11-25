@@ -1,7 +1,7 @@
 {
   "name": "azadbilik",
   "title": "Azad Bilik open data",
-  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, and native languages at the 1897 census.",
+  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1979 and 1989 censuses.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-25",
   "licenses": [
@@ -1231,6 +1231,96 @@
           "unit_ru",
           "kind",
           "language_ru"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "raions-1979-1989",
+      "path": "atlas/raions-1979-1989/by-raion.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1979 and 1989, as the census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. See NOTES.md for how units were matched. 144 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "soviet_unit",
+            "type": "string",
+            "description": "Identifier, e.g. divichi, kasum-ismailov, stepanakert; the page azadbilik.org/atlas/rayonlar takes it as ?r=."
+          },
+          {
+            "name": "name_az",
+            "type": "string",
+            "description": "The Soviet-era name."
+          },
+          {
+            "name": "name_ru",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "raion, or city (a city or city council of republic or oblast subordination)."
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "nax (Nakhchivan ASSR), nkao (Nagorno-Karabakh AO), or empty."
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "1979 or 1989."
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "description": "Present population (наличное население)."
+          },
+          {
+            "name": "urban",
+            "type": "integer",
+            "description": "Urban population."
+          },
+          {
+            "name": "census_rows",
+            "type": "string",
+            "description": "The census rows summed for it, as printed; \"=\" starts from an aggregate and \"-\" takes a row off it (Stepanakert 1979). Several values are separated by \";\"."
+          },
+          {
+            "name": "today_districts",
+            "type": "string",
+            "description": "The districts of today it is drawn with, as geoBoundaries AZE ADM2 names them (as in census-az.csv); a merged pair shares its partner's. Several values are separated by \";\"."
+          },
+          {
+            "name": "fit",
+            "type": "string",
+            "description": "same: today's districts cover its land closely; approx: the land moved a little since (NOTES.md says how)."
+          },
+          {
+            "name": "drawn_with",
+            "type": "string",
+            "description": "For raions merged since (Mir-Bashir + Mardakert, Martuni + Hadrut, Kasum-Ismailov + Shaumyan): the other one."
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "soviet_unit",
+          "year"
         ],
         "missingValues": [
           ""

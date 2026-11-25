@@ -1,0 +1,145 @@
+soviet_unit,name_az,name_ru,name_en,kind,region,year,population,urban,census_rows,today_districts,fit,drawn_with,source_url
+baku,Bakı,Баку,Baku,city,,1979,1549830,1549830,Бакинский горсовет,Baku City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+baku,Bakı,Баку,Baku,city,,1989,1759307,1759307,Бакинский горсовет,Baku City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+sumqayit,Sumqayıt,Сумгаит,Sumgait,city,,1979,204952,204952,Сумгаитский горсовет,Sumqayit City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+sumqayit,Sumqayıt,Сумгаит,Sumgait,city,,1989,255284,255284,Сумгаитский горсовет,Sumqayit City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kirovabad,Kirovabad,Кировабад,Kirovabad,city,,1979,232520,232520,Кировабадский горсовет (ныне Гянджинский),Ganja City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kirovabad,Kirovabad,Кировабад,Kirovabad,city,,1989,279229,279229,Кировабадский горсовет (ныне Гянджинский),Ganja City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+ali-bayramli,Əli Bayramlı,Али-Байрамлы,Ali-Bayramli,city,,1979,65030,64671,Али-Байрамский горсовет,Shirvan City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+ali-bayramli,Əli Bayramlı,Али-Байрамлы,Ali-Bayramli,city,,1989,84446,84446,Али-Байрамлинский горсовет,Shirvan City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+mingachevir,Mingəçevir,Мингечаур,Mingachevir,city,,1979,59733,59733,г. Мингечаур,Mingachevir City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+mingachevir,Mingəçevir,Мингечаур,Mingachevir,city,,1989,85388,85388,г. Мингечаур,Mingachevir City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+naftalan,Naftalan,Нафталан,Naftalan,city,,1979,4647,4647,г. Нафталан,Naftalan City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+naftalan,Naftalan,Нафталан,Naftalan,city,,1989,7457,7457,г. Нафталан,Naftalan City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+yevlakh-city,Yevlax şəhəri,г. Евлах,Yevlakh (city),city,,1979,33874,33874,г. Евлах,Yevlakh City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+yevlakh-city,Yevlax şəhəri,г. Евлах,Yevlakh (city),city,,1989,45719,45719,г. Евлах,Yevlakh City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+lankaran-city,Lənkəran şəhəri,г. Ленкорань,Lankaran (city),city,,1979,40312,40312,г. Ленкорань,Lankaran City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+lankaran-city,Lənkəran şəhəri,г. Ленкорань,Lankaran (city),city,,1989,45020,45020,г. Ленкорань,Lankaran City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shaki-city,Şəki şəhəri,г. Шеки,Shaki (city),city,,1979,49475,49475,г. Шеки,Shaki City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shaki-city,Şəki şəhəri,г. Шеки,Shaki (city),city,,1989,61385,56223,Шекинский горсовет,Shaki City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+agdam,Ağdam,Агдамский,Agdam,raion,,1979,107902,23559,Агдамский район,Agdam District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+agdam,Ağdam,Агдамский,Agdam,raion,,1989,131293,28031,Агдамский район,Agdam District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+agdash,Ağdaş,Агдашский,Agdash,raion,,1979,67920,20707,Агдашский район,Agdash District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+agdash,Ağdaş,Агдашский,Agdash,raion,,1989,74466,23342,Агдашский район,Agdash District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+aghjabadi,Ağcabədi,Агджабединский,Agjabedi,raion,,1979,68205,20296,Агджабединский район,Aghjabadi District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+aghjabadi,Ağcabədi,Агджабединский,Agjabedi,raion,,1989,90345,25162,Агджабединский район,Aghjabadi District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+apsheron,Abşeron,Апшеронский,Apsheron,raion,,1979,60960,44033,Апшеронский район,Absheron District;Khizi District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+apsheron,Abşeron,Апшеронский,Apsheron,raion,,1989,81423,55415,Апшеронский район,Absheron District;Khizi District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+astara,Astara,Астаринский,Astara,raion,,1979,59653,14559,Астаринский район,Astara District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+astara,Astara,Астаринский,Astara,raion,,1989,69315,16209,Астаринский район,Astara District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+akhsu,Ağsu,Ахсуинский,Akhsu,raion,,1979,47718,11019,Ахсуинский район,Agsu District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+akhsu,Ağsu,Ахсуинский,Akhsu,raion,,1989,54352,14201,Ахсуинский район,Agsu District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+barda,Bərdə,Бардинский,Barda,raion,,1979,85501,24122,Бардинский район,Barda District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+barda,Bərdə,Бардинский,Barda,raion,,1989,109489,30908,Бардинский район,Barda District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+belokany,Balakən,Белоканский,Belokany,raion,,1979,58881,6587,Белоканский район,Balakan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+belokany,Balakən,Белоканский,Belokany,raion,,1989,68843,8134,Белоканский район,Balakan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+vartashen,Vartaşen,Варташенский,Vartashen,raion,,1979,29743,5625,Варташенский район,Oghuz District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+vartashen,Vartaşen,Варташенский,Vartashen,raion,,1989,31134,5142,Варташенский район,Oghuz District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+geokchay,Göyçay,Геокчайский,Geokchay,raion,,1979,76612,29206,Геокчайский район,Goychay District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+geokchay,Göyçay,Геокчайский,Geokchay,raion,,1989,85255,30934,Геокчайский район,Goychay District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+dashkesan,Daşkəsən,Дашкесанский,Dashkesan,raion,,1979,33268,12899,Дашкесанский район,Dashkasan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+dashkesan,Daşkəsən,Дашкесанский,Dashkesan,raion,,1989,27405,12898,Дашкесанский район,Dashkasan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+jalilabad,Cəlilabad,Джалилабадский,Jalilabad,raion,,1979,106304,29187,Джалилабадский район,Jalilabad District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+jalilabad,Cəlilabad,Джалилабадский,Jalilabad,raion,,1989,132306,35913,Джалилабадский район,Jalilabad District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+jabrayil,Cəbrayıl,Джебраильский,Jebrail,raion,,1979,43184,4796,Джебраильский район,Jabrayil District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+jabrayil,Cəbrayıl,Джебраильский,Jebrail,raion,,1989,49156,6070,Джебраильский район,Jabrayil District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+divichi,Dəvəçi,Дивичинский,Divichi,raion,,1979,58817,31679,Дивичинский район,Shabran District;Siazan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+divichi,Dəvəçi,Дивичинский,Divichi,raion,,1989,68193,38109,Дивичинский район,Shabran District;Siazan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+yevlakh,Yevlax,Евлахский,Yevlakh,raion,,1979,41032,2335,Евлахский район,Yevlakh District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+yevlakh,Yevlax,Евлахский,Yevlakh,raion,,1989,48049,5592,Евлахский район,Yevlakh District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+zhdanov,Jdanov,Ждановский,Zhdanov,raion,,1979,56011,11244,Ждановский район,Beylagan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+zhdanov,Jdanov,Ждановский,Zhdanov,raion,,1989,68928,13999,Бейлаганский район,Beylagan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+zaqatala,Zaqatala,Закатальский,Zakataly,raion,,1979,79504,16143,Закатальский район,Zaqatala District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+zaqatala,Zaqatala,Закатальский,Zakataly,raion,,1989,92614,18198,Закатальский район,Zaqatala District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+zangilan,Zəngilan,Зангеланский,Zangelan,raion,,1979,30251,9747,Зангеланский район,Zangilan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+zangilan,Zəngilan,Зангеланский,Zangelan,raion,,1989,32698,12474,Зангеланский район,Zangilan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+zardab,Zərdab,Зардобский,Zardob,raion,,1979,35336,8446,Зардобский район,Zardab District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+zardab,Zərdab,Зардобский,Zardob,raion,,1989,39283,9459,Зардобский район,Zardab District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+imishli,İmişli,Имишлинский,Imishli,raion,,1979,71517,24268,Имишлинский район,Imishli District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+imishli,İmişli,Имишлинский,Imishli,raion,,1989,86069,29313,Имишлинский район,Imishli District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+ismailli,İsmayıllı,Исмаиллинский,Ismailly,raion,,1979,53685,7635,Исмаиллинский район,Ismailli District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+ismailli,İsmayıllı,Исмаиллинский,Ismailly,raion,,1989,62351,12271,Исмаиллинский район,Ismailli District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kazakh,Qazax,Казахский,Kazakh,raion,,1979,115831,26664,Казахский район,Qazakh District;Agstafa District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kazakh,Qazax,Казахский,Kazakh,raion,,1989,133968,31258,Казахский район,Qazakh District;Agstafa District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kakh,Qax,Кахский,Kakh,raion,,1979,40117,7003,Кахский район,Qakh District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kakh,Qax,Кахский,Kakh,raion,,1989,45163,11415,Кахский район,Qakh District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kedabek,Gədəbəy,Кедабекский,Kedabek,raion,,1979,75966,4453,Кедабекский район,Gadabay District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kedabek,Gədəbəy,Кедабекский,Kedabek,raion,,1989,75157,5049,Кедабекский район,Gadabay District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kelbajar,Kəlbəcər,Кельбаджарский,Kelbajar,raion,,1979,40105,6481,Кельбаджарский район,Kalbajar District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kelbajar,Kəlbəcər,Кельбаджарский,Kelbajar,raion,,1989,43713,8076,Кельбаджарский район,Kalbajar District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kubatly,Qubadlı,Кубатлинский,Kubatly,raion,,1979,26613,3460,Кубатлинский район,Qubadli District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kubatly,Qubadlı,Кубатлинский,Kubatly,raion,,1989,28110,5508,Кубатлинский район,Qubadli District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kuba,Quba,Кубинский,Kuba,raion,,1979,103875,26506,Кубинский район,Quba District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kuba,Quba,Кубинский,Kuba,raion,,1989,111716,26772,Кубинский район,Quba District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kusary,Qusar,Кусарский,Kusary,raion,,1979,66722,13649,Кусарский район,Qusar District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kusary,Qusar,Кусарский,Kusary,raion,,1989,67055,16018,Кусарский район,Qusar District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kutkashen,Qutqaşen,Куткашенский,Kutkashen,raion,,1979,60295,9722,Куткашенский район,Qabala District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kutkashen,Qutqaşen,Куткашенский,Kutkashen,raion,,1989,72845,13190,Куткашенский район,Qabala District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kurdamir,Kürdəmir,Кюрдамирский,Kurdamir,raion,,1979,68977,14844,Кюрдамирский район,Kurdamir District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kurdamir,Kürdəmir,Кюрдамирский,Kurdamir,raion,,1989,76271,15385,Кюрдамирский район,Kurdamir District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+lachin,Laçın,Лачинский,Lachin,raion,,1979,44577,6191,Лачинский район,Lachin District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+lachin,Laçın,Лачинский,Lachin,raion,,1989,47339,7829,Лачинский район,Lachin District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+lankaran,Lənkəran,Ленкоранский,Lenkoran,raion,,1979,99939,24150,Ленкоранский район,Lankaran District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+lankaran,Lənkəran,Ленкоранский,Lenkoran,raion,,1989,118595,27861,Ленкоранский район,Lankaran District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+lerik,Lerik,Лерикский,Lerik,raion,,1979,44604,4503,Лерикский район,Lerik District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+lerik,Lerik,Лерикский,Lerik,raion,,1989,53603,5824,Лерикский район,Lerik District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+masally,Masallı,Масаллинский,Masally,raion,,1979,122383,17567,Масаллинский район,Masally District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+masally,Masallı,Масаллинский,Masally,raion,,1989,143302,21496,Масаллинский район,Masally District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+mir-bashir,Mir Bəşir,Мир-Баширский,Mir-Bashir,raion,,1979,47513,10789,Мир-Баширский район,Tartar District,approx,mardakert,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+mir-bashir,Mir Bəşir,Мир-Баширский,Mir-Bashir,raion,,1989,54437,12563,Мир-Баширский район,Tartar District,approx,mardakert,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+neftchala,Neftçala,Нефтечалинский,Neftechala,raion,,1979,54208,22492,Нефтечалинский район,Neftchala District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+neftchala,Neftçala,Нефтечалинский,Neftechala,raion,,1989,62254,25421,Нефтечалинский район,Neftchala District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+pushkin,Puşkin,Пушкинский,Pushkin,raion,,1979,48962,15925,Пушкинский район,Bilasuvar District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+pushkin,Puşkin,Пушкинский,Pushkin,raion,,1989,61228,18632,Пушкинский район,Bilasuvar District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+saatly,Saatlı,Саатлинский,Saatly,raion,,1979,51872,10986,Саатлинский район,Saatly District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+saatly,Saatlı,Саатлинский,Saatly,raion,,1989,66468,14200,Саатлинский район,Saatly District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+sabirabad,Sabirabad,Сабирабадский,Sabirabad,raion,,1979,99542,15000,Сабирабадский район,Sabirabad District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+sabirabad,Sabirabad,Сабирабадский,Sabirabad,raion,,1989,120708,18612,Сабирабадский район,Sabirabad District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+salyan,Salyan,Сальянский,Salyany,raion,,1979,89760,28847,Сальянский район,Salyan District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+salyan,Salyan,Сальянский,Salyany,raion,,1989,109604,33414,Сальянский район,Salyan District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+tauz,Tovuz,Таузский,Tauz,raion,,1979,106363,19505,Таузский район,Tovuz District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+tauz,Tovuz,Таузский,Tauz,raion,,1989,126469,23503,Таузский район,Tovuz District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+ujar,Ucar,Уджарский,Ujar,raion,,1979,56036,12090,Уджарский район,Ujar District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+ujar,Ucar,Уджарский,Ujar,raion,,1989,63088,14273,Уджарский район,Ujar District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+fizuli,Füzuli,Физулинский,Fizuli,raion,,1979,76504,18307,Физулинский район,Fuzuli District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+fizuli,Füzuli,Физулинский,Fizuli,raion,,1989,89417,22779,Физулинский район,Fuzuli District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+khanlar,Xanlar,Ханларский,Khanlar,raion,,1979,76370,22791,Ханларский район,Goygol District;Samukh District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+khanlar,Xanlar,Ханларский,Khanlar,raion,,1989,85749,26544,Ханларский район,Goygol District;Samukh District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+khachmas,Xaçmaz,Хачмасский,Khachmas,raion,,1979,105028,39038,Хачмасский район,Khachmaz District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+khachmas,Xaçmaz,Хачмасский,Khachmas,raion,,1989,117679,42400,Хачмасский район,Khachmaz District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shamkhor,Şamxor,Шамхорский,Shamkhor,raion,,1979,114355,37295,Шамхорский район,Shamkir District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shamkhor,Şamxor,Шамхорский,Shamkhor,raion,,1989,146806,50557,Шамхорский район,Shamkir District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+kasum-ismailov,Qasım İsmayılov,Касум-Исмаиловский,Kasum-Ismailov,raion,,1979,61113,10268,Касум-Исмаиловский район,Goranboy District,approx,shaumyan,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+kasum-ismailov,Qasım İsmayılov,Касум-Исмаиловский,Kasum-Ismailov,raion,,1989,70303,11118,Касум-Исмаиловский район,Goranboy District,approx,shaumyan,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shaumyan,Şaumyan,Шаумяновский,Shaumyan,raion,,1979,19909,7767,Шаумяновский район,Goranboy District,approx,kasum-ismailov,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shaumyan,Şaumyan,Шаумяновский,Shaumyan,raion,,1989,20825,9037,Шаумяновский район,Goranboy District,approx,kasum-ismailov,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shaki,Şəki,Шекинский,Sheki,raion,,1979,70074,1493,Шекинский район,Shaki District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shaki,Şəki,Шекинский,Sheki,raion,,1989,77388,1547,Шекинский район,Shaki District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shemakha,Şamaxı,Шемахинский,Shemakha,raion,,1979,94686,27338,Шемахинский район,Shamakhi District;Gobustan District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shemakha,Şamaxı,Шемахинский,Shemakha,raion,,1989,99613,30144,Шемахинский район,Shamakhi District;Gobustan District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+yardymli,Yardımlı,Ярдымлинский,Yardymli,raion,,1979,33833,3114,Ярдымлинский район,Yardymli District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+yardymli,Yardımlı,Ярдымлинский,Yardymli,raion,,1989,39932,3438,Ярдымлинский район,Yardymli District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+nakhchivan-city,Naxçıvan şəhəri,г. Нахичевань,Nakhichevan (city),city,nax,1979,40401,40384,Нахичеванский горсовет,Nakhchivan City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+nakhchivan-city,Naxçıvan şəhəri,г. Нахичевань,Nakhichevan (city),city,nax,1989,59754,59754,г. Нахичевань,Nakhchivan City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+babek,Babək,Бабекский,Babek,raion,nax,1979,46340,1757,Бабекский район,Babek District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+babek,Babək,Бабекский,Babek,raion,nax,1989,54527,2302,Бабекский район,Babek District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+julfa,Culfa,Джульфинский,Julfa,raion,nax,1979,24545,6887,Джульфинский район,Julfa District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+julfa,Culfa,Джульфинский,Julfa,raion,nax,1989,29164,8840,Джульфинский горсовет;Джульфинский район (сельское население),Julfa District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+ilyich,İliç,Ильичёвский,Ilyichevsk,raion,nax,1979,80990,3532,Ильичевский район,Sharur District;Sadarak District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+ilyich,İliç,Ильичёвский,Ilyichevsk,raion,nax,1989,98875,6016,Ильичевский район,Sharur District;Sadarak District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+ordubad,Ordubad,Ордубадский,Ordubad,raion,nax,1979,30423,8207,Ордубадский район,Ordubad District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+ordubad,Ordubad,Ордубадский,Ordubad,raion,nax,1989,34416,9670,Ордубадский горсовет;Ордубадский район,Ordubad District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shahbuz,Şahbuz,Шахбузский,Shahbuz,raion,nax,1979,16144,1751,Шахбузский район,Shahbuz District,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shahbuz,Şahbuz,Шахбузский,Shahbuz,raion,nax,1989,18355,2283,Шахбузский район,Shahbuz District,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+stepanakert,Stepanakert,Степанакерт,Stepanakert,city,nkao,1979,38980,38980,=Нагорно-Карабахская автономная область;-Аскеранский район;-Гадрутский район;-Мардакертский район;-Мартунинский район;-Шушинский район,Khankendi City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+stepanakert,Stepanakert,Степанакерт,Stepanakert,city,nkao,1989,56705,56705,г. Степанакерт,Khankendi City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+askeran,Əsgəran,Аскеранский,Askeran,raion,nkao,1979,19775,945,Аскеранский район,Khojaly District,approx,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+askeran,Əsgəran,Аскеранский,Askeran,raion,nkao,1989,20954,2024,Аскеранский район,Khojaly District,approx,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+hadrut,Hadrut,Гадрутский,Hadrut,raion,nkao,1979,14479,2230,Гадрутский район,Khojavend District,approx,martuni,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+hadrut,Hadrut,Гадрутский,Hadrut,raion,nkao,1989,14487,2614,Гадрутский район,Khojavend District,approx,martuni,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+martuni,Martuni,Мартунинский,Martuni,raion,nkao,1979,26779,6587,Мартунинский район,Khojavend District,approx,hadrut,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+martuni,Martuni,Мартунинский,Martuni,raion,nkao,1989,28202,8059,Мартунинский район,Khojavend District,approx,hadrut,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+mardakert,Mardakert,Мардакертский,Mardakert,raion,nkao,1979,44075,10921,Мардакертский район,Tartar District,approx,mir-bashir,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+mardakert,Mardakert,Мардакертский,Mardakert,raion,nkao,1989,47047,12969,Мардакертский район,Tartar District,approx,mir-bashir,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php
+shusha,Şuşa,Шушинский,Shusha,raion,nkao,1979,16813,11729,Шушинский район,Shusha District;Shusha City,same,,https://www.demoscope.ru/weekly/ssp/ussr79_reg1.php
+shusha,Şuşa,Шушинский,Shusha,raion,nkao,1989,20374,15039,Шушинский район,Shusha District;Shusha City,same,,https://www.demoscope.ru/weekly/ssp/sng89_reg1.php

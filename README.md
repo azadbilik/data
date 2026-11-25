@@ -9,7 +9,7 @@ Open datasets, free to use for anything (CC0), in two parts, as on [azadbilik.or
 | Part | What | Unit | Updated |
 |---|---|---|---|
 | [`culture/`](culture/) | The catalogue of kitabxana.az, and the gallery's index of miniatures by scene and chapter | a work, an author, a picture | piece by piece |
-| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county; native languages in 1897 | a district, a census | release by release (a new census, new boundaries) |
+| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county; native languages in 1897; Soviet raions 1979–1989 | a district, a census | release by release (a new census, new boundaries) |
 
 All tables are described in one [`datapackage.json`](datapackage.json); places and people carry Wikidata ids where known, so the two parts join on them.
 
@@ -129,6 +129,19 @@ The figures behind [the 1897 map](https://azadbilik.org/atlas/1897/): the first 
 `kind` is governorate, uyezd or town, and each level includes the one below: add up one kind only.
 
 Updating: in a checkout of the site, `node atlas/1897/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
+
+## Soviet raions, 1979 and 1989
+
+The figures behind [the Soviet raions map](https://azadbilik.org/atlas/rayonlar/): every raion and city council of the Azerbaijan SSR at the 1979 and 1989 censuses, as the census drew them (Divichi, Kazakh, Khanlar, Ilyichevsk, Mardakert, Martuni…), with the districts of today that cover each one's land. Unlike `census-az.csv`, which keeps only Soviet units that match a district of today, this table has them all.
+
+| File | Rows | What |
+|---|---:|---|
+| [`atlas/raions-1979-1989/by-raion.csv`](atlas/raions-1979-1989/by-raion.csv) | 144 | 72 raions and cities × 2 censuses: present population, urban population, the census rows summed, today's districts |
+| [`atlas/raions-1979-1989/NOTES.md`](atlas/raions-1979-1989/NOTES.md) | | How each Soviet unit matches today's districts, which are approximate, and the two districts of today (Hajigabul, Kangarli) whose land can't be assigned |
+
+Each year adds up to the republic's total (6,028,253 in 1979; 7,037,867 in 1989), urban people too.
+
+Updating: in a checkout of the site, `node atlas/rayonlar/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 
 ## Citing
 
