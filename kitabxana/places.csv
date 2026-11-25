@@ -34,6 +34,8 @@ asiq-camal,death,Q4848025,Zəyəm,Zəyəm,Зейем,41.4127,46.6861,wikidata
 asiq-esed,birth,Q2649943,Böyük Qaraqoyunlu,Norabak,Норабак,40.15,45.8667,wikidata
 asiq-esed,death,Q1026084,Tovuz,Tovuz,Товуз,40.9924,45.6167,wikidata
 asiq-hamayil,birth,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603,wikidata
+asiq-heyder,birth,Q2639765,Düzkənd,Alvar,Алвар,41.0508,43.7492,wikidata
+asiq-heyder,death,Q2639765,Düzkənd,Alvar,Алвар,41.0508,43.7492,wikidata
 asiq-huseyn-bozalqanli,birth,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396,wikidata
 asiq-huseyn-bozalqanli,death,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396,wikidata
 asiq-huseyn-cavan,birth,Q5667056,Uti kəndi,Oti Kandi,,39.0411,47.2092,wikidata
@@ -147,6 +149,7 @@ fikret-sadiq,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392,wikida
 fikret-sadiq,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 fuzuli,death,Q199909,Kərbəla,Karbala,Кербела,32.6167,44.0333,wikidata
 genceli-hesen,origin,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606,name
+goynuklu-mahmud-efendi,origin,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,name
 habibi,birth,Q4992150,Bərgüşad,Bərgüşad,,40.393,47.8533,wikidata
 habibi,death,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603,wikidata
 haci-abbas-agah,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata
@@ -239,6 +242,7 @@ mikayil-rzaquluzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 mikayil-rzaquluzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 mir-celal,birth,Q4753467,Əndəbil,Andabil,,37.624,48.526,wikidata
 mir-celal,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
+mir-ebdurrehim-qudsi,origin,Q4815983,Vənənd,Vənənd,Вененд,38.9442,45.9257,mumtaz
 mir-hemze-nigari,birth,Q24035916,Cicimli,Cicimli,,39.5149,46.5175,wikidata
 mir-hemze-nigari,death,Q170532,Amasya,Amasya,Амасья,40.6787,35.8278,wikidata
 mir-mehdi-xezani,birth,Q4857363,Məmər,Məmər,Мамар,39.2522,46.6941,wikidata
@@ -356,6 +360,8 @@ qulamrza-sebri-tebrizi,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 qumri,birth,Q131416,Dərbənd,Derbent,Дербент,42.0578,48.2889,wikidata
 qumri,death,Q131416,Dərbənd,Derbent,Дербент,42.0578,48.2889,wikidata
 qurban-seid,birth,Q1899,Kiyev,Kyiv,Киев,50.45,30.5236,wikidata
+qurbani,birth,Q55704099,Diri,Diri,Дири,39.0353,46.7522,wikidata
+qurbani,death,Q55704099,Diri,Diri,Дири,39.0353,46.7522,wikidata
 qutqasinli,birth,Q244236,Qəbələ,Qabala,Габала,40.9814,47.8458,wikidata
 qutqasinli,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392,wikidata
 ramiz-rovsen,birth,Q3131176,Əmircan,"Əmircan, Baku",Амирджан,40.4214,49.9892,wikidata
