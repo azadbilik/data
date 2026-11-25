@@ -1,0 +1,13 @@
+country,year,population,source_url
+az,1959,3697717,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,1970,5117081,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,1979,6026515,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,1989,7021178,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,1999,7953438,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,2009,8922447,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+az,2019,9951409,https://en.wikipedia.org/wiki/Demographics_of_Azerbaijan#Ethnic_groups
+ir,1976,5178418,data/irn-census-provinces.csv (East Azerbaijan incl. Ardabil + West Azerbaijan + Zanjan; Zanjan rounded)
+ir,1996,7890761,data/irn-census-provinces.csv (four provinces)
+ir,2006,8669671,data/irn-census-provinces.csv (four provinces)
+ir,2011,9069418,data/irn-census-provinces.csv (four provinces)
+ir,2016,9502752,data/irn-census-provinces.csv (four provinces)

@@ -1,0 +1,28 @@
+province,year,population,source_url
+East Azerbaijan,2016,3909652,https://irandataportal.syr.edu/wp-content/uploads/Population-and-Households.xlsx
+East Azerbaijan,2011,3724620,https://irandataportal.syr.edu/wp-content/uploads/East-Azerbaijan.xls
+East Azerbaijan,2006,3603456,https://www.citypopulation.de/en/iran/azarbayjanesharqi/
+East Azerbaijan,1996,3325540,https://www.citypopulation.de/en/iran/azarbayjanesharqi/
+East Azerbaijan (incl. Ardabil),2016,5180072,sum of the East Azerbaijan and Ardabil rows
+East Azerbaijan (incl. Ardabil),2011,4973108,sum of the East Azerbaijan and Ardabil rows
+East Azerbaijan (incl. Ardabil),2006,4831611,sum of the East Azerbaijan and Ardabil rows
+East Azerbaijan (incl. Ardabil),1996,4493551,sum of the East Azerbaijan and Ardabil rows
+East Azerbaijan (incl. Ardabil),1976,3194543,https://irandataportal.syr.edu/wp-content/uploads/1976-census.pdf
+East Azerbaijan (incl. Ardabil),1966,2596439,https://irandataportal.syr.edu/wp-content/uploads/1966-census.pdf
+East Azerbaijan (incl. Ardabil),1956,2142270,https://irandataportal.syr.edu/wp-content/uploads/1956-census-.pdf
+West Azerbaijan,2016,3265219,https://irandataportal.syr.edu/wp-content/uploads/Population-and-Households.xlsx
+West Azerbaijan,2011,3080576,https://irandataportal.syr.edu/wp-content/uploads/West-Azerbaijan.xls
+West Azerbaijan,2006,2873459,https://www.citypopulation.de/en/iran/azarbayjanegharbi/
+West Azerbaijan,1996,2496320,https://www.citypopulation.de/en/iran/azarbayjanegharbi/
+West Azerbaijan,1976,1404875,https://irandataportal.syr.edu/wp-content/uploads/1976-census.pdf
+West Azerbaijan,1966,1087182,https://irandataportal.syr.edu/wp-content/uploads/1966-census.pdf
+West Azerbaijan,1956,721136,https://irandataportal.syr.edu/wp-content/uploads/1956-census-.pdf
+Ardabil,2016,1270420,https://irandataportal.syr.edu/wp-content/uploads/Population-and-Households.xlsx
+Ardabil,2011,1248488,https://irandataportal.syr.edu/wp-content/uploads/Ardabil.xls
+Ardabil,2006,1228155,https://www.citypopulation.de/en/iran/ardabil/
+Ardabil,1996,1168011,https://www.citypopulation.de/en/iran/ardabil/
+Zanjan,2016,1057461,https://irandataportal.syr.edu/wp-content/uploads/Population-and-Households.xlsx
+Zanjan,2011,1015734,https://irandataportal.syr.edu/wp-content/uploads/Zanjan.xls
+Zanjan,2006,964601,https://www.citypopulation.de/en/iran/zanjan/
+Zanjan,1996,900890,https://www.citypopulation.de/en/iran/zanjan/
+Zanjan,1976,579000,https://irandataportal.syr.edu/wp-content/uploads/1976-census.pdf

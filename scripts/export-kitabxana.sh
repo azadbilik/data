@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 DB="${DATABASE_URL:-postgresql://localhost:5432/irs_az}"
 DB="${DB%%\?*}"
 XERITE="${1:-../xerite}"
-out=kitabxana
+out=culture/kitabxana
 
 copy() { psql "$DB" -v ON_ERROR_STOP=1 -q -c "\\copy ($2) to '$out/$1.csv' with (format csv, header, encoding 'UTF8')"; }
 

@@ -1,4 +1,4 @@
-// Writes datapackage.json (Frictionless Data) describing kitabxana/*.csv, with row counts.
+// Writes datapackage.json (Frictionless Data) describing every table, culture/ and atlas/, with row counts.
 //   node scripts/datapackage.mjs
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -53,14 +53,28 @@ const tables = {
     s('poem', 'collections.slug'), s('scene', 'Scene id, unique within its poem.'), i('order', 'Position in the story.'),
     s('name_az'), s('name_en'), list('chapters', 'works.slug of the chapter(s) the scene happens in.'),
     s('evidence_az', 'A line of the chapter\'s Azerbaijani text that places the scene there.'), i('paintings', 'Pictures of it in pictures.csv.'),
-  ], ['poem', 'scene'], 'qalereya'],
+  ], ['poem', 'scene'], 'culture/qalereya'],
   pictures: ['Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders\', under the licence given; this index is CC0.', [
     s('id', 'Source and the holder\'s id, e.g. met-452734, walters-W609-49a, commons-122715070.'), s('title', 'As the holder catalogues it.'), s('date', 'As the holder gives it.'),
     i('year_start'), i('year_end'), s('manuscript', 'Shelfmark, when known.'), s('museum', 'Who serves the image.'),
     s('license', 'Of the image: CC0, Public domain, or CC BY 4.0 (credit the holder).'), s('poem', 'collections.slug'), s('scene', 'scenes.scene within the poem.'),
     s('scene_confidence', 'high, medium (placed by the folio\'s position in its manuscript) or low.'),
     s('chapter', 'works.slug of the passage it illustrates.'), s('source_url'), s('image_url'), s('kitabxana_url'),
-  ], ['id'], 'qalereya'],
+  ], ['id'], 'culture/qalereya'],
+  // The Atlas (azadbilik.org/atlas): census figures, each with its source; boundaries are geoBoundaries'
+  'census-az': ['Republic of Azerbaijan: population of each district and city at each census, 1959–2019, on today\'s borders. A unit that did not exist or was redrawn is absent for that census, never estimated: see NOTES.md.', [
+    s('shapeName', 'The district or city as geoBoundaries AZE ADM2 names it, e.g. "Barda District", "Baku City".'), i('year', 'Census year.'),
+    i('population', '1959–1989: present population (Soviet censuses); 1999–2019: permanent population, rounded to 100.'), s('source_url'),
+  ], ['shapeName', 'year'], 'atlas/population'],
+  'census-ir': ['Iranian Azerbaijan: population of each county (shahrestan) of East and West Azerbaijan, Ardabil and Zanjan at each census, 1956–2016, on today\'s borders; older counties much larger than today\'s are absent: see NOTES.md.', [
+    s('shapeName', 'The county as geoBoundaries IRN ADM2 names it, e.g. "Tabriz", "Urumia".'), s('province'), i('year', 'Census year.'), i('population'), s('source_url'),
+  ], ['shapeName', 'year'], 'atlas/population'],
+  'census-ir-provinces': ['Iranian Azerbaijan: population of each province at each census.', [
+    s('province', 'East Azerbaijan, West Azerbaijan, Ardabil, Zanjan, or "East Azerbaijan (incl. Ardabil)" for a series continuous across the 1993 split.'), i('year'), i('population'), s('source_url'),
+  ], null, 'atlas/population'],
+  totals: ['Each side\'s official census total: the Republic of Azerbaijan (az) and the four provinces of Iranian Azerbaijan (ir).', [
+    s('country', 'az or ir.'), i('year'), i('population'), s('source_url'),
+  ], ['country', 'year'], 'atlas/population'],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });
 const foreign = {
@@ -72,7 +86,7 @@ const foreign = {
   pictures: [fk('poem', 'collections'), fk('chapter', 'works'), { fields: ['poem', 'scene'], reference: { resource: 'scenes', fields: ['poem', 'scene'] } }],
 };
 
-const resources = Object.entries(tables).map(([name, [description, fields, pk, dir = 'kitabxana']]) => {
+const resources = Object.entries(tables).map(([name, [description, fields, pk, dir = 'culture/kitabxana']]) => {
   const path = `${dir}/${name}.csv`;
   // records, not lines: a quoted title may hold a line break
   let rows = -1, quoted = false;
@@ -90,11 +104,11 @@ for (const r of resources) for (const f of r.schema.fields) if (f.type === 'bool
 writeFileSync('datapackage.json', JSON.stringify({
   name: 'azadbilik',
   title: 'Azad Bilik open data',
-  description: 'The catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter.',
+  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county.',
   homepage: 'https://github.com/azadbilik/data',
   version: new Date().toISOString().slice(0, 10),
   licenses: [{ name: 'CC0-1.0', path: 'https://creativecommons.org/publicdomain/zero/1.0/', title: 'CC0 1.0 Universal' }],
-  sources: [{ title: 'Kitabxana.az', path: 'https://kitabxana.az' }, { title: 'Wikidata', path: 'https://www.wikidata.org' }],
+  sources: [{ title: 'Kitabxana.az', path: 'https://kitabxana.az' }, { title: 'Wikidata', path: 'https://www.wikidata.org' }, { title: 'State Statistical Committee of the Republic of Azerbaijan', path: 'https://www.stat.gov.az' }, { title: 'Demoscope Weekly (Soviet censuses)', path: 'https://www.demoscope.ru' }, { title: 'Statistical Centre of Iran, via the Iran Data Portal', path: 'https://irandataportal.syr.edu' }],
   resources,
 }, null, 2) + '\n');
 console.log(resources.map((r) => r.description.match(/[\d,]+ rows/)[0] + ' ' + r.name).join('\n'));

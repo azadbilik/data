@@ -1,4 +1,4 @@
-// Exports the Azad Bilik gallery's scene catalogues and picture index into qalereya/*.csv:
+// Exports the Azad Bilik gallery's scene catalogues and picture index into culture/qalereya/*.csv:
 // which painted scene of Nizami's and Fuzuli's poems each miniature shows, and the chapter of
 // the poem on kitabxana.az it illustrates. Reads a checkout of azadbilik/qalereya (after its
 // scripts/export.sh and node scripts/build.mjs).
@@ -39,6 +39,6 @@ for (const x of gallery.items) {
     x.chapter ? `https://kitabxana.az/works/${x.chapter}` : x.poem ? `https://kitabxana.az/collections/${x.poem}` : null]);
 }
 
-await writeFile('qalereya/scenes.csv', csv(scenes));
-await writeFile('qalereya/pictures.csv', csv(pictures));
+await writeFile('culture/qalereya/scenes.csv', csv(scenes));
+await writeFile('culture/qalereya/pictures.csv', csv(pictures));
 console.log(`${scenes.length - 1} scenes · ${pictures.length - 1} pictures (${gallery.items.filter((x) => x.scene).length} with a scene, ${gallery.items.filter((x) => x.chapter).length} with a chapter)`);
