@@ -1,0 +1,26 @@
+slug,kind,name_az,name_ru,name_en
+usaqlar-ucun,audience,Uşaqlar üçün,Для детей,For children
+mekteb,audience,Məktəb üçün,Для школы,For school
+qisa,audience,Qısa,Короткие,Short
+uzun,audience,Uzun,Длинные,Long
+selcuq-dovru,era,Səlcuq dövrü,Сельджукская эпоха,Seljuk era
+sefevi-dovru,era,Səfəvi dövrü,Эпоха Сефевидов,Safavid era
+asiq-poeziyasi,era,Aşıq poeziyası,Ашугская поэзия,Ashug tradition
+maarifcilik,era,Maarifçilik dövrü,Эпоха просвещения,Enlightenment
+sovet-dovru,era,Sovet dövrü,Советские,Soviet era
+kederli,mood,Kədərli,Грустные,Sad
+sevincli,mood,Sevincli,Радостные,Joyful
+dusunceli,mood,Düşüncəli,Философские,Contemplative
+istehzali,mood,İstehzalı,Ироничные,Ironic
+eshq,theme,Eşq,О любви,Love
+ilahi-eshq,theme,İlahi eşq,О божественной любви,Divine love
+hicran,theme,Hicran,О разлуке,Separation
+mey,theme,Mey və meyxana,О вине,Wine and the tavern
+tebiet,theme,Təbiət və bahar,О природе,Nature and spring
+felek,theme,Fələk və tale,О судьбе,Fate
+olum,theme,Ölüm,О смерти,Death
+hikmet,theme,Hikmət və nəsihət,О мудрости,Wisdom and advice
+veten,theme,Vətən,О родине,Homeland
+medh,theme,Mədhiyyə,Хвалебные,Praise
+satira,theme,Satira,Сатира,Satire
+mersiye,theme,Mərsiyə,Плачи,Lament

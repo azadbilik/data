@@ -1,0 +1,473 @@
+author,event,place_wikidata,place_az,place_en,place_ru,lat,lng
+abbas-abdulla,birth,Q12841224,Kəpənəkçi,Kvemo-Bolnisi,Квемо-Болниси,41.4,44.5356
+abdulla-bey-asi,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+abdulla-bey-asi,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+abdulla-bey-divanbeyoglu,birth,Q4846326,Hüseynbəyli,Hüseynbəyli,Гусейнбейли,41.1134,45.3639
+abdulla-bey-divanbeyoglu,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+afaq-mesud,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+ag-asiq-allahverdi,birth,Q1820789,Nəqədə,Naqadeh,Негеде,36.9553,45.3881
+ag-asiq-allahverdi,death,Q739670,Kərkibaş,Vanevan,Ваневан,40.2,45.6833
+aga-haci-molla-tagizade,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+aga-haci-molla-tagizade,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+aga-mesih-sirvani,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+aga-mesih-sirvani,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+agababa-zuhuri,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+agababa-zuhuri,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+agabeyim,birth,Q1636212,Qarabağ xanlığı,Karabakh Khanate,Карабахское ханство,39.7583,46.7483
+agabeyim,death,Q170573,Qum,Qom,Кум,34.64,50.8764
+agadadas-muniri,birth,Q3294097,Hövsan,Hövsan,Говсан,40.3715,50.0873
+agadadas-muniri,death,Q2671322,Buzovna,Buzovna,Бузовна,40.5199,50.1027
+agadadas-sureyya,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+agadadas-sureyya,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+agdabanli-qurban,birth,Q4723757,Dəmirçidam,Dəmirçidam,Демирчидам,40.2212,46.0734
+agdabanli-qurban,death,Q4723757,Dəmirçidam,Dəmirçidam,Демирчидам,40.2212,46.0734
+anar,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+aqil-abbas,birth,Q4541852,Boyat,Boyat,Боят,40.0417,47.1298
+arif-sirvani,birth,Q1800656,Lahıc,Lahıc,Лагич,40.8449,48.383
+arif-sirvani,death,Q1953,İrəvan,Yerevan,Ереван,40.1814,44.5144
+asiq-ali,birth,Q2650168,Qızılvəng,Makenis,Макенис,40.1239,45.6108
+asiq-ali,death,Q2650168,Qızılvəng,Makenis,Макенис,40.1239,45.6108
+asiq-besti,birth,Q6534687,Lev,Lev,Лев,40.2602,46.1006
+asiq-besti,death,Q6534687,Lev,Lev,Лев,40.2602,46.1006
+asiq-camal,birth,Q4875325,Baş Göynük,Baş Göynük,Баш-Гёйнюк,41.3266,47.1138
+asiq-camal,death,Q4848025,Zəyəm,Zəyəm,Зейем,41.4127,46.6861
+asiq-esed,birth,Q2649943,Böyük Qaraqoyunlu,Norabak,Норабак,40.15,45.8667
+asiq-esed,death,Q1026084,Tovuz,Tovuz,Товуз,40.9924,45.6167
+asiq-hamayil,birth,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603
+asiq-huseyn-bozalqanli,birth,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396
+asiq-huseyn-bozalqanli,death,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396
+asiq-huseyn-cavan,birth,Q5667056,Uti kəndi,Oti Kandi,,39.0411,47.2092
+asiq-huseyn-semkirli,birth,Q390783,Şəmkir,Şəmkir,Шамкир,40.8297,46.0189
+asiq-mirze-bilal,birth,Q1983868,Ağsu,Aghsu,Ахсу,40.5708,48.3928
+asiq-musa,birth,Q2530813,Ağkilsə,Azat,Азат,40.1833,45.8667
+asiq-musa,death,Q2530813,Ağkilsə,Azat,Азат,40.1833,45.8667
+asiq-nabat,birth,Q5015661,Xanlıqlar,Xanlıqlar,,39.4993,45.0264
+asiq-nabat,death,Q5013155,Siyaqut,Siyaqut,Сиягут,39.5383,45.0271
+asiq-necef-elimerdanli,birth,Q4991555,Əlimərdanlı,Əlimərdanlı,Алимарданлы,41.0395,45.6751
+asiq-necef-elimerdanli,death,Q388980,Tovuz rayonu,Tovuz District,Товузский район,40.9922,45.6289
+asiq-omer,birth,Q33345,Evpatoriya,Yevpatoriya,Евпатория,45.2,33.3583
+asiq-omer,death,Q33345,Evpatoriya,Yevpatoriya,Евпатория,45.2,33.3583
+asiq-peri,birth,Q4667165,Aşağı Maralyan,Aşağı Maralyan,Ашагы-Маралян,39.3466,47.2172
+asiq-peri,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+asiq-qasim,birth,Q4133523,Qaracəmirli,Qaracəmirli,Гараджамирли,40.8443,46.2127
+asiq-qasim,death,Q4133523,Qaracəmirli,Qaracəmirli,Гараджамирли,40.8443,46.2127
+asiq-semsir,birth,Q4723757,Dəmirçidam,Dəmirçidam,Демирчидам,40.2212,46.0734
+asiq-semsir,death,Q457513,Kəlbəcər rayonu,Kalbajar District,Кельбаджарский район,40.1067,46.0383
+asiq-senlik,birth,Q272985,Çıldır,Çıldır,Чилдыр (район),41.1289,43.1328
+asiq-senlik,death,Q698806,Arpaçay ilçəsi,Arpaçay,Арпачай,40.8483,43.3317
+asiq-valeh,birth,Q100329099,Gülablı,Gulably,Гюлаблы,39.877,46.9458
+asiq-valeh,death,Q100329099,Gülablı,Gulably,Гюлаблы,39.877,46.9458
+axundzade,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+axundzade,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+bahar-sirvani,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+bahar-sirvani,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+bakixanov,birth,Q3131176,Əmircan,"Əmircan, Baku",Амирджан,40.4214,49.9892
+bakixanov,death,Q5806,Məkkə,Mecca,Мекка,21.4225,39.8261
+balas-azeroglu,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+balas-azeroglu,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+bayrameli-abbaszade,birth,Q5683983,Duniq,Duniq,,37.8608,47.5992
+bayrameli-abbaszade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+bextiyar-vahabzade,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+bextiyar-vahabzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+beylaqani,birth,Q642164,Beyləqan,Beylagan,Бейлаган,39.7692,47.6156
+beylaqani,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+biriya,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+biriya,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+burhaneddin,birth,Q48338,Kayseri,Kayseri,Кайсери,38.7225,35.4875
+burhaneddin,death,Q107401,Sivas,Sivas,Сивас,39.75,37.0167
+cabbarli,birth,Q6093319,Xızı,Khizi,Хызы,40.9111,49.0694
+cabbarli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+cabir-novruz,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+cahansah-heqiqi,birth,Q188022,Mardin,Mardin,Мардин,37.3131,40.735
+cahansah-heqiqi,death,Q118995,Muş,Muş,Муш,38.7333,41.4911
+cavad,birth,Q4833449,Aşağı Seyfəli,Aşağı Seyfəli,Ашаги Сейфали,40.7468,46.1418
+cavad,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+cavid,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+cavid,death,Q1655792,Tayşet rayonu,Tayshetsky District,Тайшетский район,55.9333,98.0167
+cemenzeminli,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+cemenzeminli,death,Q16710041,Unjlaq,Unzhlag,Унжлаг,57.0456,44.8912
+cingiz-abdullayev,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+coban-efqan,birth,Q4619958,Qıraq Kəsəmən,Qıraq Kəsəmən,Кырах-Кесаман,41.2143,45.4626
+dede-omer-rovseni,birth,Q170457,Aydın,Aydın,Айдын,37.8481,27.8453
+dede-omer-rovseni,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+dide,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+dide,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+ebdulqadir-maragayi,birth,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+ebdulqadir-maragayi,death,Q45313,Herat,Herat,Герат,34.3419,62.2031
+ebdulxaliq-yusif,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+ebulhesen-raci,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+ebulhesen-raci,death,Q23406,Qırmızı dəniz,Red Sea,Красное море,22,38
+ebulqasim-nebati,birth,Q5873283,Üştibin,Ushtabin,Уштибин,38.8567,46.4861
+ebulqasim-nebati,death,Q5873283,Üştibin,Ushtabin,Уштибин,38.8567,46.4861
+ehmed-bey-agaoglu,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+ehmed-bey-agaoglu,death,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603
+ekrem-eylisli,birth,Q4814423,Yuxarı Əylis,Yuxarı Əylis,Юхары-Айлис,38.9503,45.9838
+elcin,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+elcin-huseynbeyli,birth,Q105527817,Mahmudlu,Mahmudlu,,39.3236,47.1657
+elesger,birth,Q2530813,Ağkilsə,Azat,Азат,40.1833,45.8667
+elesger,death,Q2530813,Ağkilsə,Azat,Азат,40.1833,45.8667
+eli-fitret,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+eli-kerim,birth,Q1822209,Göyçay,Goychay,Гёйчай,40.6546,47.7293
+eli-kerim,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+eli-razi-semcizade,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+eli-veliyev,birth,Q2154981,Ağdü,Aghitu,Агиту,39.5153,46.0808
+eli-veliyev,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+eliaga-kurcayli,birth,Q6454153,Kür Qaraqaşlı,Kür Qaraqaşlı,Кюр-Каракашлы,39.5587,48.9877
+elibala-hacizade,birth,Q4833349,Ağalıkənd,Ağalıkənd,Агаликенд,39.3743,48.5796
+elibala-hacizade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+elmira-axundova,birth,Q651394,Ramensk rayonu,Ramensky District,Раменский район,55.5667,38.2333
+endelib-qaracadagi,birth,Q911727,Əhər,Ahar,Ахар,38.4775,47.0662
+endelib-qaracadagi,death,Q1953,İrəvan,Yerevan,Ереван,40.1814,44.5144
+enver-memmedxanli,birth,Q1822209,Göyçay,Goychay,Гёйчай,40.6546,47.7293
+enver-memmedxanli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+esger-aga-gorani,birth,Q4591968,Goran,Goran,Горан,40.6529,46.851
+esger-aga-gorani,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+eziza-ceferzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+eziza-ceferzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+falaki,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+falaki,death,Q638064,Şirvan,Shirvan,Ширван,39.9319,48.9203
+fazil-xan-seyda,birth,Q720596,Bicar,Bijar,Биджар,35.8728,47.6028
+fazil-xan-seyda,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+fegir-ordubadi,birth,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231
+fegir-ordubadi,death,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231
+ferman-kerimzade,birth,Q750689,Vedi,Vedi,Веди,39.91,44.73
+ferman-kerimzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+fetelibeyli,birth,Q5015275,Düdəngə,Düdəngə,,39.5717,44.9986
+fetelibeyli,death,Q1726,Münxen,Munich,Мюнхен,48.1375,11.575
+fezli,birth,Q199909,Kərbəla,Karbala,Кербела,32.6167,44.0333
+fikret-qoca,birth,Q4542519,Kotanarx,Kotanarkh,Котанарх,40.5892,47.4875
+fikret-qoca,death,Q1983932,Ağdaş,Agdash,Агдаш,40.65,47.4833
+fikret-sadiq,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+fikret-sadiq,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+fuzuli,death,Q199909,Kərbəla,Karbala,Кербела,32.6167,44.0333
+habibi,birth,Q4992150,Bərgüşad,Bərgüşad,,40.393,47.8533
+habibi,death,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603
+haci-abbas-agah,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+haci-abbas-agah,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+haci-kerim-sanili,birth,Q586758,Qazax,Gazakh,Газах,41.0933,45.3661
+haci-rza-serraf,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+haci-rza-serraf,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+hacibeyov,birth,Q1983875,Ağcabədi,Aghjabadi,Агджабеди,40.0489,47.4502
+hacibeyov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+hadi,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+hadi,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+haqverdiyev,birth,Q100265986,Ağbulaq,"Ağbulaq, Shusha",Агбулаг,39.8004,46.5965
+haqverdiyev,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+hasenali-xan-qaradagi,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+hasenali-xan-qaradagi,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+hebib-sahir,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+hebib-sahir,death,Q3616,Tehran,Tehran,Тегеран,35.6889,51.3897
+hekime-billuri,birth,Q146699,Zəncan,Zanjan,Зенджан,36.6667,48.4833
+hekime-billuri,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+heyran,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+heyran,death,Q794,İran,Iran,Иран,32,53
+huseyn-arif,birth,Q4618477,Yenigün,Yenigün,Енигюн,41.1199,45.4672
+huseyn-arif,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+huseyn-ibrahimov,birth,Q3056885,Şahtaxtı,Şahtaxtı,Шахтахты,39.3716,45.0954
+huseyn-ibrahimov,death,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+huseynzade,birth,Q1017678,Salyan,Salyan,Сальян,39.5961,48.9847
+huseynzade,death,Q326339,Üsküdar,Üsküdar,Ускюдар,41.0167,29.0167
+ildirim,birth,Q4026864,Qala,Qala,Кала,40.4438,50.1875
+ildirim,death,Q174060,Elazığ,Elazığ,Элязыг,38.6667,39.2167
+ilyas-efendiyev,birth,Q1996181,Füzuli,Fuzuli,Физули,39.6003,47.1431
+ilyas-efendiyev,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+irec-mirze,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+irec-mirze,death,Q3616,Tehran,Tehran,Тегеран,35.6889,51.3897
+isa-huseynov,birth,Q6944532,Muğanlı,"Muğanlı, Agstafa",Муганлы,41.3452,45.1958
+isa-huseynov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+isi-melikzade,birth,Q1983875,Ağcabədi,Aghjabadi,Агджабеди,40.0489,47.4502
+isi-melikzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+islam-seferli,birth,Q4617137,Şəkərabad,Şəkərabad,,39.193,45.4379
+islam-seferli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+ismayil-sixli,birth,Q4199007,İkinci Şıxlı,İkinci Şıxlı,Икинджи Шихлы,41.3139,45.0967
+ismayil-sixli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+izzeddin-hasanoglu,birth,Q6178890,Xorasan ostanı,Khorasan Province,Хорасан,36.3,59.6
+kamal-abdulla,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+kemine,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+kemine,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+kisveri,birth,Q765806,Salmas,Salmas,Сельмас,38.2,44.7667
+kisveri,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+kocerli,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+kocerli,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+lezgi-ehmed,birth,Q1711565,Quruş,Kurush,Куруш,41.2808,47.83
+mahsati,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+mahsati,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+manaf-suleymanov,birth,Q1800656,Lahıc,Lahıc,Лагич,40.8449,48.383
+manaf-suleymanov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+maqsud-ibrahimbeyov,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+maqsud-ibrahimbeyov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+meczub,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+medine-gulgun,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+medine-gulgun,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mehdi-huseyn,birth,Q4199007,İkinci Şıxlı,İkinci Şıxlı,Икинджи Шихлы,41.3139,45.0967
+mehdi-huseyn,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mehdiqulu-xan-vefa,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mehdiqulu-xan-vefa,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+mehemmed-bey-asiq,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mehemmed-bey-asiq,death,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231
+memmed-araz,birth,Q5012980,Nursu,Nursu,Нурсу,39.3976,45.6723
+memmed-araz,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+memmed-aslan,birth,Q4255421,Laçın,Laçın,Лачин,40.1262,46.2511
+memmed-aslan,death,Q147548,Zaqatala,Zagatala,Загатала,41.6336,46.6433
+memmed-ismayil,birth,Q4991498,Əsrik Cırdaxan,Əsrik Cırdaxan,Асрик-Джирдахан,40.8555,45.6235
+memmed-ismayil,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+memmed-rahim,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+memmed-rahim,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+memmedquluzade,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+memmedquluzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+memo-bey-memai,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+memo-bey-memai,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mesedi-eyyub-baki,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mesedi-eyyub-baki,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mesihi,birth,Q240475,Kaşan,Kashan,Кашан,33.9881,51.4425
+mikayil-rzaquluzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mikayil-rzaquluzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mir-celal,birth,Q4753467,Əndəbil,Andabil,,37.624,48.526
+mir-celal,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mir-hemze-nigari,birth,Q24035916,Cicimli,Cicimli,,39.5149,46.5175
+mir-hemze-nigari,death,Q170532,Amasya,Amasya,Амасья,40.6787,35.8278
+mir-mehdi-xezani,birth,Q4857363,Məmər,Məmər,Мамар,39.2522,46.6941
+mir-mehdi-xezani,death,Q2636177,Tuğ,Tugh,Туг,39.5867,46.967
+mirvarid-dilbazi,birth,Q4495504,Xanlıqlar,Xanlıqlar,Ханлыглар,41.07,45.3216
+mirvarid-dilbazi,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mirze-adigozel-bey,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-adigozel-bey,death,Q7386967,Rəhimli,Rəhimli,,40.5843,46.7482
+mirze-bala-memmedzade,birth,Q4192310,Zirə,Zirə,Зиря,40.3701,50.2864
+mirze-bala-memmedzade,death,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603
+mirze-baxis-nadim,birth,Q4668928,Nəvai,Nəvahı,Наваги,40.04,49.1018
+mirze-baxis-nadim,death,Q4668928,Nəvai,Nəvahı,Наваги,40.04,49.1018
+mirze-camal-cavansir,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-camal-cavansir,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-ebulhesen-sehid,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-eli-leli,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+mirze-eli-leli,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+mirze-hesen-yuzbasov-qarabagi,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-hesen-yuzbasov-qarabagi,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-huseyn-bey-salar,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-huseyn-bey-salar,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-ibrahimov,birth,Q5685176,Eyvəq (Sərab),Eyvaq,,37.8667,47.1406
+mirze-ibrahimov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mirze-isa-xeyali,birth,Q274536,Cənubi Azərbaycan,Azerbaijan (Iran),Иранский Азербайджан,37.6,47
+mirze-isa-xeyali,death,Q228811,Lənkəran,Lankaran,Ленкорань,38.7536,48.8511
+mirze-ismayil-mehzun,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-ismayil-mehzun,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-rehim-fena,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-rehim-fena,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mirze-sadiq-piran,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-sadiq-piran,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+mirze-saleh-tebrizi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+miskin-abdal,birth,Q2672981,Sarıyaqub,Jaghatsadzor,Джагацадзор,40.1467,45.8156
+miskin-abdal,death,Q2672981,Sarıyaqub,Jaghatsadzor,Джагацадзор,40.1467,45.8156
+miskin-veli,birth,Q3943258,Miskinli,Miskinli,,40.5035,45.7656
+miskin-veli,death,Q330749,Gədəbəy rayonu,Gadabay District,Кедабекский район,40.5656,45.8161
+mocuz,birth,Q765501,Şəbüstər,Shabestar,Шебестер,38.1803,45.7028
+mocuz,death,Q605002,Şahrud,Shahrud,Имамшехр,36.4181,54.9764
+molla-cume,birth,Q4833436,Aşağı Layısqı,Aşağı Layısqı,Ашагы-Лайски,41.2828,46.9724
+molla-cume,death,Q4833436,Aşağı Layısqı,Aşağı Layısqı,Ашагы-Лайски,41.2828,46.9724
+movlud-suleymanli,birth,Q2017443,Cücəkənd,Dzyunashogh,Дзюнашох,41.1794,44.1811
+movlud-suleymanli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+musa-yaqub,birth,Q4673947,Buynuz,Buynuz,Буйнуз,40.917,48.0627
+musa-yaqub,death,Q4673947,Buynuz,Buynuz,Буйнуз,40.917,48.0627
+musfiq,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+musfiq,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+mustafa-zerir,birth,Q122803,Ərzurum,Erzurum,Эрзурум,39.9097,41.2756
+mustaq,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+mustaq,death,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+nasimi,birth,Q6397066,Şiraz,Shiraz,Шираз,29.6103,52.5311
+nasimi,death,Q41183,Hələb,Aleppo,Алеппо,36.2,37.16
+natavan,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+natavan,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+natiq-resulzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+nava,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+nava,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+nebi-xezri,birth,Q642109,Xırdalan,Khyrdalan,Хырдалан,40.4486,49.7564
+nebi-xezri,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+necefqulu-bey-seyda,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+necefqulu-bey-seyda,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+nemanzade,birth,Q12862136,Azğur,Atskuri,Ацкури,41.7292,43.1594
+nemanzade,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+neriman-hesenzade,birth,Q4620805,Poylu,Poylu,Пойлу,41.1567,45.4493
+neriman-hesenzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+nerimanov,birth,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+nerimanov,death,Q649,Moskva,Moscow,Москва,55.7506,37.6175
+nevvab,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+nevvab,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+nezmi,birth,Q4655334,Sarov,Sarov,Саров,40.7251,46.5913
+nezmi,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+nigar-refibeyli,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+nigar-refibeyli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+nisat-sirvani,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+nizami,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+nizami,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+novres,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+novres,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+novres-iman,birth,Q2530813,Ağkilsə,Azat,Азат,40.1833,45.8667
+nusret-kesemenli,birth,Q4619958,Qıraq Kəsəmən,Qıraq Kəsəmən,Кырах-Кесаман,41.2143,45.4626
+nusret-kesemenli,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+ordubadi,birth,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231
+ordubadi,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+osman-sarivelli,birth,Q4199007,İkinci Şıxlı,İkinci Şıxlı,Икинджи Шихлы,41.3139,45.0967
+osman-sarivelli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+ovhadi,birth,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+ovhadi,death,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+pervin-etisami,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+pervin-etisami,death,Q3616,Tehran,Tehran,Тегеран,35.6889,51.3897
+punhan,birth,Q4026908,Kürdəxanı,Kürdəxanı,Кюрдаханы,40.5515,49.9198
+punhan,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+qabil,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+qabil,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+qasim-enver,birth,Q863240,Sərab,Sarab,Сераб,37.9408,47.5367
+qasim-enver,death,Q5910842,,Khargerd,Харгерд,34.5358,60.1775
+qasim-qasimzade,birth,Q4833455,Aşağı Xocamusaxlı,Aşağı Xocamusaxlı,Ашагы-Ходжамусахлы,39.3146,46.5527
+qasim-qasimzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+qatran,birth,Q5853389,Şadbad-i Məşayiq,Shadbad-e Mashayekh,Шадиабад,37.9892,46.3586
+qatran,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+qemkusar,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+qemkusar,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+qenizade,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+qoncebeyim,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122
+qovsi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+qovsi,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+qul-qarani,birth,Q3652493,Saraçlı,Mamkhuti,Мамхути,41.3833,44.7169
+qulamrza-sebri-tebrizi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+qulamrza-sebri-tebrizi,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+qumri,birth,Q131416,Dərbənd,Derbent,Дербент,42.0578,48.2889
+qumri,death,Q131416,Dərbənd,Derbent,Дербент,42.0578,48.2889
+qurban-seid,birth,Q1899,Kiyev,Kyiv,Киев,50.45,30.5236
+qutqasinli,birth,Q244236,Qəbələ,Qabala,Габала,40.9814,47.8458
+qutqasinli,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+ramiz-rovsen,birth,Q3131176,Əmircan,"Əmircan, Baku",Амирджан,40.4214,49.9892
+refiq-zeka-xendan,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+refiq-zeka-xendan,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+resid-efendiyev,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+resid-efendiyev,death,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+resul-rza,birth,Q1822209,Göyçay,Goychay,Гёйчай,40.6546,47.7293
+resul-rza,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+resulzade,birth,Q2059406,Novxanı,Novkhany,Новханы,40.5392,49.7835
+resulzade,death,Q3640,Ankara,Ankara,Анкара,39.9358,32.8387
+rustem-ibrahimbeyov,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+rustem-ibrahimbeyov,death,Q649,Moskva,Moscow,Москва,55.7506,37.6175
+sabir,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+sabir,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+sabir-rustemxanli,birth,Q5644103,Hamarkənd,Hamarkənd,Хамарканд,38.8652,48.2761
+sabit-rehman,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+sabit-rehman,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+sadiq-bey-efsar,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+sadiq-bey-efsar,death,Q42053,İsfahan,Isfahan,Исфахан,32.6525,51.6747
+sahtaxtli,birth,Q3056885,Şahtaxtı,Şahtaxtı,Шахтахты,39.3716,45.0954
+sahtaxtli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+saib,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+saib,death,Q42053,İsfahan,Isfahan,Исфахан,32.6525,51.6747
+saiq,birth,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+saiq,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+sair-memmedhuseyn,birth,Q2536508,Daşkənd,Ayrk,Айрк,40.1264,45.7911
+sair-memmedhuseyn,death,Q2536508,Daşkənd,Ayrk,Айрк,40.1264,45.7911
+sakir,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+sakir,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+salam-qedirzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+salam-qedirzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+salik,birth,Q4199007,İkinci Şıxlı,İkinci Şıxlı,Икинджи Шихлы,41.3139,45.0967
+salik,death,Q389381,Qazax rayonu,Gazakh District,Газахский район,41.0933,45.3661
+salman-mumtaz,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706
+salman-mumtaz,death,Q3118,Oryol,Oryol,Орёл,52.9686,36.0694
+sam-mirze,birth,Q18234383,Səfəvilər,Safavid Iran,Сефевидское государство,33,50
+sam-mirze,death,Q18234383,Səfəvilər,Safavid Iran,Сефевидское государство,33,50
+sari-asiq,birth,Q301832,Laçın rayonu,Lachin District,Лачинский район,39.6333,46.55
+sari-asiq,death,Q4791294,Güləbird,Güləbird,Гюлебирд,39.4831,46.6098
+sayat-nova,birth,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+sayat-nova,death,Q749366,Ağpat,Haghpat,Ахпат,41.095,44.7103
+sebusteri,birth,Q765501,Şəbüstər,Shabestar,Шебестер,38.1803,45.7028
+sebusteri,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+sedi-sani-qarabagi,birth,Q4542338,Cinli,Dzhinli,Джинли,40.0336,46.8002
+sedi-sani-qarabagi,death,Q170532,Amasya,Amasya,Амасья,40.6787,35.8278
+sehend,birth,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+sehend,death,Q3616,Tehran,Tehran,Тегеран,35.6889,51.3897
+sehhet,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+sehhet,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+sehriyar,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+sehriyar,death,Q3616,Tehran,Tehran,Тегеран,35.6889,51.3897
+semed-behrengi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+semed-behrengi,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+semed-mensur,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+semed-mensur,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+serif-agayar,birth,Q4790922,Ağbulaq,Ağbulaq,Агбулаг (Лачынский район),39.7776,46.258
+seyid-ezim,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+seyid-ezim,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+seyx-ibrahim-gulseni,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+seyx-ibrahim-gulseni,death,Q85,Qahirə,Cairo,Каир,30.0444,31.2358
+sidqi,birth,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231
+sidqi,death,Q952969,Qarabağlar,Garabaghlar,Карабаглар,39.4256,45.1978
+sohrab-tahir,birth,Q645855,Astara,Astara,Астара,38.4308,48.87
+sohrab-tahir,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+sukuhi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+sukuhi,death,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+suleyman-rehimov,birth,Q4530030,Əyin,Əyin,Эйин,39.3485,46.4874
+suleyman-rehimov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+suleyman-rustem,birth,Q2059406,Novxanı,Novkhany,Новханы,40.5392,49.7835
+suleyman-rustem,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+suleyman-sani,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+suleyman-sani,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+talibov,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+talibov,death,Q132931,Buynaksk,Buynaksk,Буйнакск,42.8167,47.1167
+teymur-elcin,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+teymur-elcin,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+tofiq-bayram,birth,Q3131176,Əmircan,"Əmircan, Baku",Амирджан,40.4214,49.9892
+tofiq-bayram,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+tufarqanli,birth,Q793611,Azərşəhr,Azarshahr,Азершехр,37.7589,45.9783
+tufarqanli,death,Q793611,Azərşəhr,Azarshahr,Азершехр,37.7589,45.9783
+ummugulsum,birth,Q2059406,Novxanı,Novkhany,Новханы,40.5392,49.7835
+ummugulsum,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+usta-abdulla,birth,Q745934,Zod,Sotk,Сотк,40.2031,45.8647
+usta-abdulla,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+vahid,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vahid,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vaqif,birth,Q4535490,Yuxarı Salahlı,Yukhary Salahly,Юхары-Салахлы,41.2423,45.2658
+vaqif,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+vaqif-aslan,birth,Q2035188,Kiş,Kiş,Киш,41.2509,47.1898
+vaqif-bayatli-oder,birth,Q4720019,Böyük Mərcanlı,Böyük Mərcanlı,Бёюк Марджанлы,39.3685,47.2531
+vaqif-semedoglu,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vaqif-semedoglu,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vazeh,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+vazeh,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925
+vezirov,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+vezirov,death,Q5013199,Çuxuryurd,Çuxuryurd,Чухурюрд,40.7135,48.632
+vidadi,birth,Q390783,Şəmkir,Şəmkir,Шамкир,40.8297,46.0189
+vidadi,death,Q4199007,İkinci Şıxlı,İkinci Şıxlı,Икинджи Шихлы,41.3139,45.0967
+vidadi-babanli,birth,Q4845968,Birinci Şıxlı,Birinci Şıxlı,Биринджи Шихлы,41.2832,45.1772
+vidadi-babanli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vuqar-ehmed,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+vurgun,birth,Q4535490,Yuxarı Salahlı,Yukhary Salahly,Юхары-Салахлы,41.2423,45.2658
+vurgun,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+xaqani,birth,Q638064,Şirvan,Shirvan,Ширван,39.9319,48.9203
+xaqani,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+xelil-rza,birth,Q4810442,Pirəbbə,Pirəbbə,,39.4971,49.0087
+xelil-rza,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+xeste-bayrameli,birth,Q2643326,Nərimanlı,Shatvan,Шатван,40.1831,45.8256
+xeste-bayrameli,death,Q2643326,Nərimanlı,Shatvan,Шатван,40.1831,45.8256
+xeste-hasan,death,Q500888,Axalkələk,Akhalkalaki,Ахалкалаки,41.4056,43.4861
+xeste-qasim,birth,Q4361548,Tikmədaş,Tekmeh Dash,,37.7258,46.9378
+xeste-qasim,death,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392
+xetai,birth,Q180103,Ərdəbil,Ardabil,Ардебиль,38.25,48.3
+xetai,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961
+xeyyat-mirze,birth,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396
+xeyyat-mirze,death,Q4952788,Bozalqanlı,Bozalqanlı,Бозалганлы,40.9889,45.6396
+yehya-bey-dilqem,birth,Q5321314,Dəllər Cırdaxan,Dəllər Cırdaxan,Далляр Джырдахан,40.8963,46.076
+yehya-bey-dilqem,death,Q5321314,Dəllər Cırdaxan,Dəllər Cırdaxan,Далляр Джырдахан,40.8963,46.076
+yusif-ezimzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+yusif-ezimzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+yusif-semedoglu,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+yusif-semedoglu,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+zahid-xelil,birth,Q175459,Yevlax,Yevlakh,Евлах,40.6172,47.15
+zakir,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+zakir,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504
+zelimxan-yaqub,birth,Q12841224,Kəpənəkçi,Kvemo-Bolnisi,Квемо-Болниси,41.4,44.5356
+zelimxan-yaqub,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+zeynal-cabbarzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+zeynal-cabbarzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+zeynal-xelil,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606
+zeynal-xelil,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352
+zeynalabdin-maragayi,birth,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+zeynalabdin-maragayi,death,Q605021,Marağa,Maragheh,Мераге,37.3919,46.2392
+zikri-erdebili,birth,Q180103,Ərdəbil,Ardabil,Ардебиль,38.25,48.3
+zulfuqar-ehmedzade,birth,Q4616983,Pensər,Pensər,Пенсар,38.6086,48.8185
+zulfuqar-ehmedzade,death,Q49771,Mariinsk,Mariinsk,Мариинск,56.2167,87.75

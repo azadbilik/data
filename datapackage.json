@@ -1,0 +1,524 @@
+{
+  "name": "azadbilik-kitabxana",
+  "title": "Kitabxana.az catalogue",
+  "description": "Authors, books, works, translations and places of the Kitabxana.az library of Azerbaijani literature.",
+  "homepage": "https://github.com/azadbilik/data",
+  "version": "2026-11-25",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": "CC0 1.0 Universal"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kitabxana.az",
+      "path": "https://kitabxana.az"
+    },
+    {
+      "title": "Wikidata",
+      "path": "https://www.wikidata.org"
+    }
+  ],
+  "resources": [
+    {
+      "name": "authors",
+      "path": "kitabxana/authors.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Every author on kitabxana.az. 472 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Identifier, also the page address."
+          },
+          {
+            "name": "name_az",
+            "type": "string"
+          },
+          {
+            "name": "name_ru",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "name_fa",
+            "type": "string"
+          },
+          {
+            "name": "born",
+            "type": "integer",
+            "description": "Year of birth; negative is BCE."
+          },
+          {
+            "name": "born_approx",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "died",
+            "type": "integer"
+          },
+          {
+            "name": "died_approx",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "poet, writer, philosopher, playwright, critic or folk."
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Centuries as written on the site, e.g. \"XVI əsr\"."
+          },
+          {
+            "name": "writing_langs",
+            "type": "string",
+            "description": "Languages the author wrote in: az_latin, az_arabic, az_cyrillic, fa, ar, ru, en, tr or de. Several values are separated by \";\"."
+          },
+          {
+            "name": "wikidata",
+            "type": "string",
+            "description": "Wikidata item, e.g. Q312517."
+          },
+          {
+            "name": "works",
+            "type": "integer",
+            "description": "Published works."
+          },
+          {
+            "name": "tags",
+            "type": "string",
+            "description": "Tag slugs, see tags.csv. Several values are separated by \";\"."
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "slug"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "collections",
+      "path": "kitabxana/collections.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Books, divans and cycles that group works. 1,552 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "authors.slug"
+          },
+          {
+            "name": "title_az",
+            "type": "string"
+          },
+          {
+            "name": "title_ru",
+            "type": "string"
+          },
+          {
+            "name": "title_en",
+            "type": "string"
+          },
+          {
+            "name": "title_fa",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "year_approx",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "original_lang",
+            "type": "string",
+            "description": "az_latin, az_arabic, az_cyrillic, fa, ar, ru, en, tr or de."
+          },
+          {
+            "name": "genre",
+            "type": "string",
+            "description": "poem, prose, play, essay, philosophy, letter or memoir."
+          },
+          {
+            "name": "works",
+            "type": "integer"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "slug"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "author",
+            "reference": {
+              "resource": "authors",
+              "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "works",
+      "path": "kitabxana/works.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Every published poem, story, play, chapter or letter. Texts are not included: see README. 48,838 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "authors.slug"
+          },
+          {
+            "name": "collection",
+            "type": "string",
+            "description": "collections.slug, empty for a work outside one."
+          },
+          {
+            "name": "order",
+            "type": "integer",
+            "description": "Position within the collection."
+          },
+          {
+            "name": "title_az",
+            "type": "string"
+          },
+          {
+            "name": "title_ru",
+            "type": "string"
+          },
+          {
+            "name": "title_en",
+            "type": "string"
+          },
+          {
+            "name": "title_fa",
+            "type": "string"
+          },
+          {
+            "name": "original_lang",
+            "type": "string",
+            "description": "Language the work was written in: az_latin, az_arabic, az_cyrillic, fa, ar, ru, en, tr or de."
+          },
+          {
+            "name": "original_present",
+            "type": "boolean",
+            "description": "false when the library has only a translation of it.",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "genre",
+            "type": "string",
+            "description": "poem, prose, play, essay, philosophy, letter or memoir."
+          },
+          {
+            "name": "form",
+            "type": "string",
+            "description": "For poems: ghazal, masnavi, rubai, qasida, murabba, free_verse or other."
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "year_approx",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "word_count",
+            "type": "integer",
+            "description": "Words in the original text."
+          },
+          {
+            "name": "translations",
+            "type": "string",
+            "description": "Languages it can be read in besides the original. Several values are separated by \";\"."
+          },
+          {
+            "name": "tags",
+            "type": "string",
+            "description": "Tag slugs, see tags.csv. Several values are separated by \";\"."
+          },
+          {
+            "name": "source_id",
+            "type": "string",
+            "description": "Where the text was imported from, e.g. ganjoor-116713."
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "slug"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "author",
+            "reference": {
+              "resource": "authors",
+              "fields": "slug"
+            }
+          },
+          {
+            "fields": "collection",
+            "reference": {
+              "resource": "collections",
+              "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "translations",
+      "path": "kitabxana/translations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Translations and transliterations of works. 3,574 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "work",
+            "type": "string",
+            "description": "works.slug"
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "az_latin, az_arabic, az_cyrillic, fa, ar, ru, en, tr or de."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "translation or transliteration."
+          },
+          {
+            "name": "translator",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "is_default",
+            "type": "boolean",
+            "description": "The version shown first for this language.",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "work",
+            "reference": {
+              "resource": "works",
+              "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "tags",
+      "path": "kitabxana/tags.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Themes, moods, eras and audiences works and authors are tagged with. 25 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "theme, mood, era or audience."
+          },
+          {
+            "name": "name_az",
+            "type": "string"
+          },
+          {
+            "name": "name_ru",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "slug"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "places",
+      "path": "kitabxana/places.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Where authors were born and died, from Wikidata (the literary map, azadbilik.org/xerite). 472 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "author",
+            "type": "string",
+            "description": "authors.slug"
+          },
+          {
+            "name": "event",
+            "type": "string",
+            "description": "birth or death."
+          },
+          {
+            "name": "place_wikidata",
+            "type": "string"
+          },
+          {
+            "name": "place_az",
+            "type": "string"
+          },
+          {
+            "name": "place_en",
+            "type": "string"
+          },
+          {
+            "name": "place_ru",
+            "type": "string"
+          },
+          {
+            "name": "lat",
+            "type": "number"
+          },
+          {
+            "name": "lng",
+            "type": "number"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "author",
+            "reference": {
+              "resource": "authors",
+              "fields": "slug"
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    }
+  ]
+}
