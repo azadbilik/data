@@ -464,7 +464,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Where authors were born and died, from Wikidata (the literary map, azadbilik.org/xerite). 472 rows.",
+      "description": "Where authors were born and died (the literary map, azadbilik.org/xerite). 512 rows.",
       "schema": {
         "fields": [
           {
@@ -475,7 +475,7 @@
           {
             "name": "event",
             "type": "string",
-            "description": "birth or death."
+            "description": "birth, death, or origin: where a folk poet with no recorded birthplace came from."
           },
           {
             "name": "place_wikidata",
@@ -500,6 +500,11 @@
           {
             "name": "lng",
             "type": "number"
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "wikidata (the person's item), name (the place in their name, e.g. Şəkili) or mumtaz (Salman Mümtaz's note in «El şairləri»)."
           }
         ],
         "foreignKeys": [

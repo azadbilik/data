@@ -15,7 +15,7 @@ The catalogue of [kitabxana.az](https://kitabxana.az), an online library of Azer
 | [`kitabxana/works.csv`](kitabxana/works.csv) | 48,838 | Titles, original language, genre, poetic form, year, word count, translations available, tags |
 | [`kitabxana/translations.csv`](kitabxana/translations.csv) | 3,574 | Language, translator, year |
 | [`kitabxana/tags.csv`](kitabxana/tags.csv) | 25 | Themes, moods, eras, audiences |
-| [`kitabxana/places.csv`](kitabxana/places.csv) | 472 | Birth and death places with coordinates, from Wikidata ([the literary map](https://azadbilik.org/xerite/)) |
+| [`kitabxana/places.csv`](kitabxana/places.csv) | 512 | Birth and death places with coordinates, from Wikidata, and for some folk poets where they came from ([the literary map](https://azadbilik.org/xerite/)) |
 
 Rows link up by `slug`: `works.author` → `authors.slug`, `works.collection` → `collections.slug`, `translations.work` → `works.slug`. Every author, collection and work has a `url` on kitabxana.az. Columns are described in [`datapackage.json`](datapackage.json) ([Frictionless Data](https://frictionlessdata.io)), so most tools load the set with its types:
 
@@ -35,7 +35,7 @@ authors <- read_resource(pkg, "authors")
 
 - **The texts.** Many are still under copyright or come from sources with their own terms; read them on kitabxana.az. [What may be reused](https://github.com/azadbilik/kitabxana/blob/main/CONTENT.md).
 - **Biographies.** They are from Wikipedia (CC BY-SA), so they can't be CC0.
-- 213 authors have no place yet: no Wikidata item, or one without a birthplace. Corrections are welcome as issues, or straight on Wikidata.
+- 173 authors have no place yet, mostly folk poets known by a single name. An `origin` row is where a poet came from by their name or Salman Mümtaz's note (`basis`), not a recorded birthplace. Corrections are welcome as issues, or straight on Wikidata.
 
 ### Conventions
 

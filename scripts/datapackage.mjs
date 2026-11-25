@@ -43,9 +43,10 @@ const tables = {
   tags: ['Themes, moods, eras and audiences works and authors are tagged with.', [
     s('slug'), s('kind', 'theme, mood, era or audience.'), s('name_az'), s('name_ru'), s('name_en'),
   ], ['slug']],
-  places: ['Where authors were born and died, from Wikidata (the literary map, azadbilik.org/xerite).', [
-    s('author', 'authors.slug'), s('event', 'birth or death.'), s('place_wikidata'),
+  places: ['Where authors were born and died (the literary map, azadbilik.org/xerite).', [
+    s('author', 'authors.slug'), s('event', 'birth, death, or origin: where a folk poet with no recorded birthplace came from.'), s('place_wikidata'),
     s('place_az'), s('place_en'), s('place_ru'), { name: 'lat', type: 'number' }, { name: 'lng', type: 'number' },
+    s('basis', 'wikidata (the person\'s item), name (the place in their name, e.g. Şəkili) or mumtaz (Salman Mümtaz\'s note in «El şairləri»).'),
   ]],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });

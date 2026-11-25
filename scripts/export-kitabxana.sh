@@ -60,8 +60,8 @@ from \"Tag\" order by kind, \"order\", slug"
 node -e '
 const a = require(process.argv[1]);
 const q = (v) => v == null ? "" : /[",\n]/.test(v) ? `"${String(v).replace(/"/g, "\"\"")}"` : String(v);
-const rows = [["author","event","place_wikidata","place_az","place_en","place_ru","lat","lng"].join(",")];
-for (const x of a) for (const ev of ["birth","death"]) { const p = x[ev]; if (p) rows.push([x.slug, ev, p.id, p.az, p.en, p.ru, p.lat, p.lng].map(q).join(",")); }
+const rows = [["author","event","place_wikidata","place_az","place_en","place_ru","lat","lng","basis"].join(",")];
+for (const x of a) for (const ev of ["birth","death"]) { const p = x[ev]; if (p) rows.push([x.slug, p.from ? "origin" : ev, p.id, p.az, p.en, p.ru, p.lat, p.lng, p.from ?? "wikidata"].map(q).join(",")); }
 require("fs").writeFileSync(process.argv[2], rows.join("\n") + "\n");
 ' "$(cd "$XERITE" && pwd)/data/authors.json" "$out/places.csv"
 
