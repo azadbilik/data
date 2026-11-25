@@ -189,7 +189,7 @@ leyli-xanim,Leyli xanım,Лейли-ханум,Leyli khanum,,,false,,false,poet,
 lezgi-ehmed,Ləzgi Əhməd,Лезги Ахмед,Lezgi Ahmed,,,false,,false,poet,,az_arabic,Q111416286,2,,https://kitabxana.az/authors/lezgi-ehmed
 mahsati,Məhsəti Gəncəvi,Мехсети Гянджеви,Mahsati Ganjavi,مهستی گنجوی,1089,false,1181,true,poet,XII əsr,fa,Q291537,290,,https://kitabxana.az/authors/mahsati
 mahtab-xanim,Mahtab xanım Şəkili,Махтаб-ханум Шекинская,Mahtab khanum of Shaki,,,false,,false,poet,,az_arabic,,2,,https://kitabxana.az/authors/mahtab-xanim
-malibeyli-qurban,Mələkballı Qurban,Курбан из Мелекбаллы,Qurban of Malakballi,,,false,,false,poet,,az_arabic,,15,,https://kitabxana.az/authors/malibeyli-qurban
+malibeyli-qurban,Mələkballı Qurban,Курбан из Мелекбаллы,Qurban of Malakballi,,,false,,false,poet,,az_arabic,Q12842684,15,,https://kitabxana.az/authors/malibeyli-qurban
 manaf-suleymanov,Manaf Süleymanov,Манаф Сулейманов,Manaf Suleymanov,,1912,false,2001,false,writer,XX əsr,az_latin,Q6746621,10,,https://kitabxana.az/authors/manaf-suleymanov
 maqsud-ibrahimbeyov,Maqsud İbrahimbəyov,Максуд Ибрагимбеков,Magsud Ibrahimbeyov,,1935,false,2016,false,writer,XX-XXI əsr,ru;az_latin,Q4195350,16,,https://kitabxana.az/authors/maqsud-ibrahimbeyov
 matemi,Matəmi,Матями,Matami,,,false,,false,poet,XV əsr,az_arabic,Q108197579,1,,https://kitabxana.az/authors/matemi
@@ -225,7 +225,7 @@ mexlis-el-sairi,Məxlis,Мехлис,Makhlis,,,false,,false,poet,,az_arabic,,1,,
 mikayil-rzaquluzade,Mikayıl Rzaquluzadə,Микаил Рзакулизаде,,,1905,false,1984,false,poet,XX əsr,az_latin,Q12841911,0,,https://kitabxana.az/authors/mikayil-rzaquluzade
 mina-el-sairi,Mina,Мина,Mina,,,false,,false,poet,,az_arabic,,3,,https://kitabxana.az/authors/mina-el-sairi
 mir-celal,Mir Cəlal Paşayev,Мир Джалал Пашаев,Mir Jalal Pashayev,,1908,false,1978,false,writer,XX əsr,az_latin,Q2598226,348,,https://kitabxana.az/authors/mir-celal
-mir-ebdurrehim-qudsi,Vəndli Mir Əbdürrəhim Qüdsi,Мир Абдуррахим Кудси из Венда,Mir Abdurrahim Qudsi of Vand,,,false,,false,poet,,az_arabic,,5,,https://kitabxana.az/authors/mir-ebdurrehim-qudsi
+mir-ebdurrehim-qudsi,Vəndli Mir Əbdürrəhim Qüdsi,Мир Абдуррахим Кудси из Венда,Mir Abdurrahim Qudsi of Vand,,1773,true,1861,true,poet,XVIII-XIX əsr,az_arabic,Q12844604,5,,https://kitabxana.az/authors/mir-ebdurrehim-qudsi
 mir-hemze-nigari,Mir Həmzə Nigari,Мир Гамза Нигяри,Mir Hamza Nigari,,1805,false,1885,true,poet,XIX əsr,az_arabic;fa,Q8007777,19,,https://kitabxana.az/authors/mir-hemze-nigari
 mir-mehdi-el-sairi,Mir Mehdi,Мир Мехди,Mir Mehdi,,,false,,false,poet,,az_arabic,,2,,https://kitabxana.az/authors/mir-mehdi-el-sairi
 mir-mehdi-xezani,Mir Mehdi Xəzani,Мир Мехти Хазани,Mir Mehdi Khazani,,1819,false,1894,false,writer,XIX əsr,az_arabic,Q8009415,37,,https://kitabxana.az/authors/mir-mehdi-xezani
@@ -258,7 +258,8 @@ molla-niyaz-niyazi,Ərəşli Molla Niyaz Niyazi,Молла Ниаз Ниязи �
 molla-sukur-atesi,Cavanşirli Molla Şükür (Atəşi),Молла Шукюр (Атеши) из Джаваншира,Molla Shukur (Atashi) of Javanshir,,,false,,false,poet,,az_arabic,,2,,https://kitabxana.az/authors/molla-sukur-atesi
 molla-yusif-raci,Şah Balutlu Molla Yusif (Raci),Молла Юсиф (Раджи) из Шах-Балута,Molla Yusif (Raji) of Shah Balut,,,false,,false,poet,,az_arabic,,5,,https://kitabxana.az/authors/molla-yusif-raci
 movlud-suleymanli,Mövlud Süleymanlı,Мовлуд Сулейманлы,Movlud Suleymanli,,1943,false,2024,false,writer,XX-XXI əsr,az_latin,Q16106368,213,,https://kitabxana.az/authors/movlud-suleymanli
-mucrum-kerim,Mücrüm Kərim,Мюджрюм Керим,Mujrim Karim,,,false,,false,poet,XIX əsr,az_arabic,Q12842426,45,,https://kitabxana.az/authors/mucrum-kerim
+mucrim-kerim,Vardanlı Mücrim Kərim,Муджрим Керим из Вардана,Mujrim Karim of Vardan,,,false,,false,poet,XIX əsr,az_arabic,Q8009236,23,,https://kitabxana.az/authors/mucrim-kerim
+mucrum-kerim,Mücrüm Kərim,Мюджрюм Керим,Mujrim Karim,,,false,,false,poet,XIX əsr,az_arabic,Q12842426,22,,https://kitabxana.az/authors/mucrum-kerim
 muhterem-el-sairi,Mühtərəm,Мухтарам,Muhtaram,,,false,,false,poet,,az_arabic,,1,,https://kitabxana.az/authors/muhterem-el-sairi
 murteza-el-sairi,Mürtəza,Муртаза,Murtaza,,,false,,false,poet,,az_arabic,,1,,https://kitabxana.az/authors/murteza-el-sairi
 murtezaqulu-xan-samli,Mürtəzaqulu xan Şamlı,Муртазакули-хан Шамлу,Murtazaqulu Khan Shamlu,,,false,,false,poet,XVII əsr,az_arabic,,132,,https://kitabxana.az/authors/murtezaqulu-xan-samli
@@ -315,7 +316,7 @@ qasim-qasimzade,Qasım Qasımzadə,Гасым Гасымзаде,Gasym Gasymzade
 qatran,Qətran Təbrizi,Катран Тебризи,Qatran Tabrizi,قطران تبریزی,1009,true,1072,true,poet,XI əsr,fa,Q3101199,527,,https://kitabxana.az/authors/qatran
 qayibi-el-sairi,Qayıbi,Гаиби,Qayibi,,,false,,false,poet,,az_arabic,,1,,https://kitabxana.az/authors/qayibi-el-sairi
 qazaxli-ebdurrehman-aga,Qazaxlı Əbdürrəhman ağa Şair,Абдуррахман ага Шаир из Казаха,Abdurrahman Agha Shair of Qazakh,,,false,,false,poet,,az_arabic,,1,,https://kitabxana.az/authors/qazaxli-ebdurrehman-aga
-qemerbeyim-seyda,Qəmərbəyim Şeyda,Гамарбейим Шейда,Gamarbeyim Sheyda,,,false,,false,poet,XIX-XX əsr,az_arabic,,1,,https://kitabxana.az/authors/qemerbeyim-seyda
+qemerbeyim-seyda,Qəmərbəyim Şeyda,Гамарбейим Шейда,Gamarbeyim Sheyda,,1881,false,1933,false,poet,XIX-XX əsr,az_arabic,Q4133149,1,,https://kitabxana.az/authors/qemerbeyim-seyda
 qemkusar,Əliqulu Qəmküsar,Алигулу Гамгюсар,Aligulu Gamgusar,,1880,false,1919,false,poet,XX əsr,az_arabic,Q4133040,108,,https://kitabxana.az/authors/qemkusar
 qemnak,Şəkili Hüseyn Qəmnak,Гусейн Гамнак из Шеки,Huseyn Gamnak of Shaki,,,false,,false,poet,,az_arabic,,1,,https://kitabxana.az/authors/qemnak
 qenizade,Sultan Məcid Qənizadə,Султан Меджид Ганизаде,Sultan Majid Ganizade,,1866,false,1938,false,writer,XIX-XX əsr,az_arabic,Q8084490,1,,https://kitabxana.az/authors/qenizade

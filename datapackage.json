@@ -28,7 +28,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Every author on kitabxana.az. 471 rows.",
+      "description": "Every author on kitabxana.az. 472 rows.",
       "schema": {
         "fields": [
           {
@@ -464,7 +464,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Where authors were born and died (the literary map, azadbilik.org/xerite). 518 rows.",
+      "description": "Where authors were born and died (the literary map, azadbilik.org/xerite). 532 rows.",
       "schema": {
         "fields": [
           {

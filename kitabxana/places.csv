@@ -47,6 +47,7 @@ asiq-nabat,birth,Q5015661,Xanlıqlar,Xanlıqlar,,39.4993,45.0264,wikidata
 asiq-nabat,death,Q5013155,Siyaqut,Siyaqut,Сиягут,39.5383,45.0271,wikidata
 asiq-necef-elimerdanli,birth,Q4991555,Əlimərdanlı,Əlimərdanlı,Алимарданлы,41.0395,45.6751,wikidata
 asiq-necef-elimerdanli,death,Q388980,Tovuz rayonu,Tovuz District,Товузский район,40.9922,45.6289,wikidata
+asiq-nesib,origin,Q2642302,Güllübulaq,Byurakn,Бюракн,40.8686,43.7072,source
 asiq-novruz-sekili,origin,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,name
 asiq-omer,birth,Q33345,Evpatoriya,Yevpatoriya,Евпатория,45.2,33.3583,wikidata
 asiq-omer,death,Q33345,Evpatoriya,Yevpatoriya,Евпатория,45.2,33.3583,wikidata
@@ -63,6 +64,7 @@ asiq-valeh,death,Q100329099,Gülablı,Gulably,Гюлаблы,39.877,46.9458,wiki
 axundzade,birth,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,wikidata
 axundzade,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925,wikidata
 baba-remzi,origin,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961,name
+badarli-abdulla,origin,Q4810172,Padar,Padar,Падар (Огузский район),40.9612,47.5154,mumtaz
 bahar-sirvani,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392,wikidata
 bahar-sirvani,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961,wikidata
 bakixanov,birth,Q3131176,Əmircan,"Əmircan, Baku",Амирджан,40.4214,49.9892,wikidata
@@ -84,6 +86,7 @@ cabbarli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 cabir-novruz,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 cahansah-heqiqi,birth,Q188022,Mardin,Mardin,Мардин,37.3131,40.735,wikidata
 cahansah-heqiqi,death,Q118995,Muş,Muş,Муш,38.7333,41.4911,wikidata
+cakirli-abdulla,origin,Q4159705,Cəyirli (Şəki),"Cəyirli, Shaki",Джагирли,40.8872,47.2707,mumtaz
 cavad,birth,Q4833449,Aşağı Seyfəli,Aşağı Seyfəli,Ашаги Сейфали,40.7468,46.1418,wikidata
 cavad,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 cavid,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122,wikidata
@@ -149,7 +152,7 @@ fikret-sadiq,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.6392,wikida
 fikret-sadiq,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 fuzuli,death,Q199909,Kərbəla,Karbala,Кербела,32.6167,44.0333,wikidata
 genceli-hesen,origin,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606,name
-goynuklu-mahmud-efendi,origin,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,name
+goynuklu-mahmud-efendi,origin,Q4875325,Baş Göynük,Baş Göynük,Баш-Гёйнюк,41.3266,47.1138,name
 habibi,birth,Q4992150,Bərgüşad,Bərgüşad,,40.393,47.8533,wikidata
 habibi,death,Q406,İstanbul,Istanbul,Стамбул,41.01,28.9603,wikidata
 haci-abbas-agah,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata
@@ -208,6 +211,7 @@ lezgi-ehmed,birth,Q1711565,Quruş,Kurush,Куруш,41.2808,47.83,wikidata
 mahsati,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606,wikidata
 mahsati,death,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606,wikidata
 mahtab-xanim,origin,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,name
+malibeyli-qurban,birth,Q4991473,Məlikballı,Məlikballı,,40.5447,47.5446,wikidata
 manaf-suleymanov,birth,Q1800656,Lahıc,Lahıc,Лагич,40.8449,48.383,wikidata
 manaf-suleymanov,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 maqsud-ibrahimbeyov,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
@@ -242,7 +246,8 @@ mikayil-rzaquluzade,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 mikayil-rzaquluzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 mir-celal,birth,Q4753467,Əndəbil,Andabil,,37.624,48.526,wikidata
 mir-celal,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
-mir-ebdurrehim-qudsi,origin,Q4815983,Vənənd,Vənənd,Вененд,38.9442,45.9257,mumtaz
+mir-ebdurrehim-qudsi,birth,Q4815983,Vənənd,Vənənd,Вененд,38.9442,45.9257,wikidata
+mir-ebdurrehim-qudsi,death,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231,wikidata
 mir-hemze-nigari,birth,Q24035916,Cicimli,Cicimli,,39.5149,46.5175,wikidata
 mir-hemze-nigari,death,Q170532,Amasya,Amasya,Амасья,40.6787,35.8278,wikidata
 mir-mehdi-xezani,birth,Q4857363,Məmər,Məmər,Мамар,39.2522,46.6941,wikidata
@@ -275,6 +280,8 @@ mirze-rehim-fena,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 mirze-sadiq-piran,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata
 mirze-sadiq-piran,death,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata
 mirze-saleh-tebrizi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961,wikidata
+mirze-xurrem,birth,Q6035887,Kürdəşt,Kordasht,Кордешт,38.8756,46.2525,wikidata
+mirze-xurrem,death,Q911727,Əhər,Ahar,Ахар,38.4775,47.0662,wikidata
 miskin-abdal,birth,Q2672981,Sarıyaqub,Jaghatsadzor,Джагацадзор,40.1467,45.8156,wikidata
 miskin-abdal,death,Q2672981,Sarıyaqub,Jaghatsadzor,Джагацадзор,40.1467,45.8156,wikidata
 miskin-veli,birth,Q3943258,Miskinli,Miskinli,,40.5035,45.7656,wikidata
@@ -284,10 +291,12 @@ mocuz,death,Q605002,Şahrud,Shahrud,Имамшехр,36.4181,54.9764,wikidata
 molla-cume,birth,Q4833436,Aşağı Layısqı,Aşağı Layısqı,Ашагы-Лайски,41.2828,46.9724,wikidata
 molla-cume,death,Q4833436,Aşağı Layısqı,Aşağı Layısqı,Ашагы-Лайски,41.2828,46.9724,wikidata
 molla-ehmed-faiz,origin,Q131416,Dərbənd,Derbent,Дербент,42.0578,48.2889,name
+molla-kerim-kesfi,origin,Q4809473,Kərimli,Kərimli,Керимли,40.9753,47.4833,name
 molla-mehemmed-sefili,origin,Q212546,Axalsıx,Akhaltsikhe,Ахалцихе,41.6389,42.9861,name
 molla-niyaz-niyazi,origin,Q8083806,Ərəş,Ərəş,,40.7381,47.2283,name
 movlud-suleymanli,birth,Q2017443,Cücəkənd,Dzyunashogh,Дзюнашох,41.1794,44.1811,wikidata
 movlud-suleymanli,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
+mucrim-kerim,birth,Q4809473,Kərimli,Kərimli,Керимли,40.9753,47.4833,wikidata
 musa-yaqub,birth,Q4673947,Buynuz,Buynuz,Буйнуз,40.917,48.0627,wikidata
 musa-yaqub,death,Q4673947,Buynuz,Buynuz,Буйнуз,40.917,48.0627,wikidata
 musfiq,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
@@ -347,6 +356,8 @@ qasim-qasimzade,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 qatran,birth,Q5853389,Şadbad-i Məşayiq,Shadbad-e Mashayekh,Шадиабад,37.9892,46.3586,wikidata
 qatran,death,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961,wikidata
 qazaxli-ebdurrehman-aga,origin,Q586758,Qazax,Gazakh,Газах,41.0933,45.3661,name
+qemerbeyim-seyda,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata
+qemerbeyim-seyda,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 qemkusar,birth,Q230104,Naxçıvan,Nakhchivan,Нахичевань,39.2089,45.4122,wikidata
 qemkusar,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925,wikidata
 qemnak,origin,Q234783,Şəki,Shaki,Шеки,41.1919,47.1706,name
@@ -440,6 +451,7 @@ seyx-ibrahim-gulseni,birth,Q388224,Şamaxı,Shamakhi,Шемахы,40.6339,48.639
 seyx-ibrahim-gulseni,death,Q85,Qahirə,Cairo,Каир,30.0444,31.2358,wikidata
 sidqi,birth,Q1000839,Ordubad,Ordubad,Ордубад,38.9047,46.0231,wikidata
 sidqi,death,Q952969,Qarabağlar,Garabaghlar,Карабаглар,39.4256,45.1978,wikidata
+sirvanli-molla-esedulla-faiq,origin,Q29583554,Karrar,Karrar,Каррар,40.3069,48.2602,mumtaz
 sohrab-tahir,birth,Q645855,Astara,Astara,Астара,38.4308,48.87,wikidata
 sohrab-tahir,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 sukuhi,birth,Q80053,Təbriz,Tabriz,Тебриз,38.0739,46.2961,wikidata
@@ -470,6 +482,8 @@ vaqif-aslan,birth,Q2035188,Kiş,Kiş,Киш,41.2509,47.1898,wikidata
 vaqif-bayatli-oder,birth,Q4720019,Böyük Mərcanlı,Böyük Mərcanlı,Бёюк Марджанлы,39.3685,47.2531,wikidata
 vaqif-semedoglu,birth,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
 vaqif-semedoglu,death,Q9248,Bakı,Baku,Баку,40.3667,49.8352,wikidata
+varxiyanli-hesen,origin,Q5005720,Bəhmədli,Bəhmətli,Бахматли,41.4564,46.6363,name
+varxiyanli-mehemmed,origin,Q5005720,Bəhmədli,Bəhmətli,Бахматли,41.4564,46.6363,name
 vazeh,birth,Q131290,Gəncə,Ganja,Гянджа,40.6828,46.3606,wikidata
 vazeh,death,Q994,Tbilisi,Tbilisi,Тбилиси,41.7225,44.7925,wikidata
 vezirov,birth,Q158903,Şuşa,Shusha,Шуша,39.7602,46.7504,wikidata

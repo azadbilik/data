@@ -10,12 +10,12 @@ The catalogue of [kitabxana.az](https://kitabxana.az), an online library of Azer
 
 | File | Rows | What |
 |---|---:|---|
-| [`kitabxana/authors.csv`](kitabxana/authors.csv) | 471 | Names in az, ru, en, fa; years; type; period; languages written in; Wikidata id |
+| [`kitabxana/authors.csv`](kitabxana/authors.csv) | 472 | Names in az, ru, en, fa; years; type; period; languages written in; Wikidata id |
 | [`kitabxana/collections.csv`](kitabxana/collections.csv) | 1,552 | Books, divans and cycles |
 | [`kitabxana/works.csv`](kitabxana/works.csv) | 48,838 | Titles, original language, genre, poetic form, year, word count, translations available, tags |
 | [`kitabxana/translations.csv`](kitabxana/translations.csv) | 3,574 | Language, translator, year |
 | [`kitabxana/tags.csv`](kitabxana/tags.csv) | 25 | Themes, moods, eras, audiences |
-| [`kitabxana/places.csv`](kitabxana/places.csv) | 518 | Birth and death places with coordinates, from Wikidata, and for some folk poets where they came from ([the literary map](https://azadbilik.org/xerite/)) |
+| [`kitabxana/places.csv`](kitabxana/places.csv) | 532 | Birth and death places with coordinates, from Wikidata, and for some folk poets where they came from ([the literary map](https://azadbilik.org/xerite/)) |
 
 Rows link up by `slug`: `works.author` → `authors.slug`, `works.collection` → `collections.slug`, `translations.work` → `works.slug`. Every author, collection and work has a `url` on kitabxana.az. Columns are described in [`datapackage.json`](datapackage.json) ([Frictionless Data](https://frictionlessdata.io)), so most tools load the set with its types:
 
@@ -35,7 +35,7 @@ authors <- read_resource(pkg, "authors")
 
 - **The texts.** Many are still under copyright or come from sources with their own terms; read them on kitabxana.az. [What may be reused](https://github.com/azadbilik/kitabxana/blob/main/CONTENT.md).
 - **Biographies.** They are from Wikipedia (CC BY-SA), so they can't be CC0.
-- 168 authors have no place yet, mostly folk poets known by a single name. An `origin` row is where a poet came from by their name or Salman Mümtaz's note (`basis`), not a recorded birthplace. Corrections are welcome as issues, or straight on Wikidata.
+- 158 authors have no place yet, mostly folk poets known by a single name. An `origin` row is where a poet came from by their name or Salman Mümtaz's note (`basis`), not a recorded birthplace. Corrections are welcome as issues, or straight on Wikidata.
 
 ### Conventions
 
