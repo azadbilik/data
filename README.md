@@ -1,5 +1,7 @@
 # Azad Bilik · Məlumatlar
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24543369.svg)](https://doi.org/10.5281/zenodo.24543369)
+
 Açıq məlumat dəstləri, sərbəst istifadə üçün (CC0): **mədəniyyət** (ədəbiyyat, sənət) və **atlas** (əhali, coğrafiya).
 
 Open datasets, free to use for anything (CC0), in two parts, as on [azadbilik.org](https://azadbilik.org):
@@ -117,7 +119,7 @@ The figures behind [the peoples and languages map](https://azadbilik.org/atlas/x
 
 ## Citing
 
-[`CITATION.cff`](CITATION.cff) gives the citation; each release is archived on Zenodo with a DOI.
+Cite as: *Azad Bilik contributors. Azad Bilik open data.* Zenodo. [doi:10.5281/zenodo.24543369](https://doi.org/10.5281/zenodo.24543369) (the concept DOI, always the latest release; v1.0 is [10.5281/zenodo.24543370](https://doi.org/10.5281/zenodo.24543370)). [`CITATION.cff`](CITATION.cff) has the same.
 
 ## Licence
 

@@ -2,6 +2,8 @@ cff-version: 1.2.0
 title: "Azad Bilik open data"
 message: "If you use these data, please cite them as below."
 type: dataset
+doi: 10.5281/zenodo.24543369
+version: "1.0"
 authors:
   - name: "Azad Bilik contributors"
     website: "https://azadbilik.org"
