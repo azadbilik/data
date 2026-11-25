@@ -738,7 +738,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Republic of Azerbaijan: population of each district and city at each census, 1959–2019, on today's borders. A unit that did not exist or was redrawn is absent for that census, never estimated: see NOTES.md. 427 rows.",
+      "description": "Republic of Azerbaijan: population of each district and city at each census, 1939–2019, on today's borders. A unit that did not exist or was redrawn is absent for that census, never estimated: see NOTES.md. 469 rows.",
       "schema": {
         "fields": [
           {
@@ -754,7 +754,7 @@
           {
             "name": "population",
             "type": "integer",
-            "description": "1959–1989: present population (Soviet censuses); 1999–2019: permanent population, rounded to 100."
+            "description": "1939–1989: present population (Soviet censuses); 1999–2019: permanent population, rounded to 100."
           },
           {
             "name": "source_url",
@@ -861,7 +861,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Each side's official census total: the Republic of Azerbaijan (az) and the four provinces of Iranian Azerbaijan (ir). 12 rows.",
+      "description": "Each side's official census total: the Republic of Azerbaijan (az) and the four provinces of Iranian Azerbaijan (ir). 13 rows.",
       "schema": {
         "fields": [
           {

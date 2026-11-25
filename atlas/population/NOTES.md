@@ -1,9 +1,10 @@
 # Azerbaijan census populations: notes
 
-Companion to `aze-census.csv` (shapeName, year, population, source_url). 427 rows, 7 census years. 1939 and 1926 not included (see Gaps).
+Companion to `aze-census.csv` (shapeName, year, population, source_url). 469 rows, 8 census years. 1926 not included (see Gaps).
 
 ## Sources actually used
 
+- 1939: Demoskop Weekly, [«Численность наличного населения СССР по районам и городам»](https://www.demoscope.ru/weekly/ssp/rus_pop_39_2.php), Azerbaijan SSR block, present population (final results, including the centrally added «special contingent»), read 2026-11-26. Only the 42 raions that match one district of today are used (a raion with its town counts as the district, as below); the matching is `../rayonlar/data/raions-1939.json`, where every 1939 unit is drawn, merged and split ones included. Left empty for 1939: Baku, Ganja, Sumqayit, Shirvan, Mingachevir, Yevlakh, Goranboy, Naftalan, Samukh, Hajigabul, Quba, Kurdamir, Agsu, Sabirabad, Saatly, Salyan, Neftchala, Tartar, Kalbajar, Khizi, Absheron, Shamakhi, Gobustan, Shabran, Siazan, Julfa, Babek, Kangarli, Sharur, Sadarak, Khojaly, Khojavend.
 - 1959, 1970, 1979, 1989: Demoskop Weekly, all-Union census tables, "Азербайджанская ССР", by raion and city. Figures are the **present population (наличное население)**. Pages: `ussr59_reg1`/`ussr59_reg2`, `ussr70_reg1`/`ussr70_reg2`, `ussr79_reg1`/`ussr79_reg2`, `sng89_reg1`/`sng89_reg2` under `https://www.demoscope.ru/weekly/ssp/`. `_reg1` has raions and city councils, `_reg2` has the urban tables with city proper.
 - 1999, 2009, 2019: azstat table "Permanent population by economic regions and administrative units" (`https://www.stat.gov.az/source/demoqraphy/az/001_17.xls`; Baku from `.../ap/az/2_4.xls`). These are the **permanent population (daimi əhali)**, **rounded to 100** (published in thousands with one decimal). I could not open stat.gov.az or the xls from here. The numbers were read from Wikidata statements (P1082, point in time = census date) that cite those azstat files. Spot checks against Russian Wikipedia: Agdash 1999 89,214 and 2009 98,599, Balakan 83,732 and 89,827, all agree with the rounded values.
 - Access caveat: demoscope.ru could not be reached directly (connection reset). The pages were fetched through a third-party text proxy (r.jina.ai) that returned the page text unchanged. A further probe through that proxy was blocked by the permission system, so I stopped using it.
@@ -84,7 +85,7 @@ The geojson has two features named "Lankaran District", and both are Lankaran. O
 
 ## Gaps
 
-- 1939 and 1926 by raion: not obtained. Demoscope's URLs for those tables were not found at the guessed paths, and further probing was stopped. Wikidata has a handful of 1926 and 1939 values but unsourced, so none are included.
+- 1926: Demoscope has it by uezd only (13 uezds, Nakhchivan, Nagorno-Karabakh), much larger than today's districts; not included.
 - Khojaly District: no rows at all.
 - Pre-1999 values for the new units (Gobustan, Hajigabul, Kangarli, Khizi, Shabran, Siazan, Samukh, Sadarak, Agstafa, Babek) are empty, as above.
 

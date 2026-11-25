@@ -62,9 +62,9 @@ const tables = {
     s('chapter', 'works.slug of the passage it illustrates.'), s('source_url'), s('image_url'), s('kitabxana_url'),
   ], ['id'], 'culture/qalereya'],
   // The Atlas (azadbilik.org/atlas): census figures, each with its source; boundaries are geoBoundaries'
-  'census-az': ['Republic of Azerbaijan: population of each district and city at each census, 1959–2019, on today\'s borders. A unit that did not exist or was redrawn is absent for that census, never estimated: see NOTES.md.', [
+  'census-az': ['Republic of Azerbaijan: population of each district and city at each census, 1939–2019, on today\'s borders. A unit that did not exist or was redrawn is absent for that census, never estimated: see NOTES.md.', [
     s('shapeName', 'The district or city as geoBoundaries AZE ADM2 names it, e.g. "Barda District", "Baku City".'), i('year', 'Census year.'),
-    i('population', '1959–1989: present population (Soviet censuses); 1999–2019: permanent population, rounded to 100.'), s('source_url'),
+    i('population', '1939–1989: present population (Soviet censuses); 1999–2019: permanent population, rounded to 100.'), s('source_url'),
   ], ['shapeName', 'year'], 'atlas/population'],
   'census-ir': ['Iranian Azerbaijan: population of each county (shahrestan) of East and West Azerbaijan, Ardabil and Zanjan at each census, 1956–2016, on today\'s borders; older counties much larger than today\'s are absent: see NOTES.md.', [
     s('shapeName', 'The county as geoBoundaries IRN ADM2 names it, e.g. "Tabriz", "Urumia".'), s('province'), i('year', 'Census year.'), i('population'), s('source_url'),

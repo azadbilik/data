@@ -81,11 +81,11 @@ Updating: in a checkout of [azadbilik/qalereya](https://github.com/azadbilik/qal
 
 ## Population of historical Azerbaijan
 
-The figures behind [the population map](https://azadbilik.org/atlas/ehali/): every district and city of the Republic of Azerbaijan at the censuses of 1959–2019, and every county of Iran's four Azerbaijani provinces (East and West Azerbaijan, Ardabil, Zanjan) at the censuses of 1956–2016, on today's borders. Each figure has its source.
+The figures behind [the population map](https://azadbilik.org/atlas/ehali/): every district and city of the Republic of Azerbaijan at the censuses of 1939–2019, and every county of Iran's four Azerbaijani provinces (East and West Azerbaijan, Ardabil, Zanjan) at the censuses of 1956–2016, on today's borders. Each figure has its source.
 
 | File | Rows | What |
 |---|---:|---|
-| [`atlas/population/census-az.csv`](atlas/population/census-az.csv) | 427 | District and city populations, 1959–2019 |
+| [`atlas/population/census-az.csv`](atlas/population/census-az.csv) | 469 | District and city populations, 1939–2019 (1939 only where a raion matches one district of today) |
 | [`atlas/population/census-ir.csv`](atlas/population/census-ir.csv) | 179 | County populations, 1956–2016 |
 | [`atlas/population/census-ir-provinces.csv`](atlas/population/census-ir-provinces.csv) | 27 | Province populations |
 | [`atlas/population/totals.csv`](atlas/population/totals.csv) | 12 | Each side's official census total |
