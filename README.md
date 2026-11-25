@@ -9,7 +9,7 @@ Open datasets, free to use for anything (CC0), in two parts, as on [azadbilik.or
 | Part | What | Unit | Updated |
 |---|---|---|---|
 | [`culture/`](culture/) | The catalogue of kitabxana.az, and the gallery's index of miniatures by scene and chapter | a work, an author, a picture | piece by piece |
-| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county | a district, a census | release by release (a new census, new boundaries) |
+| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county; native languages in 1897 | a district, a census | release by release (a new census, new boundaries) |
 
 All tables are described in one [`datapackage.json`](datapackage.json); places and people carry Wikidata ids where known, so the two parts join on them.
 
@@ -116,6 +116,19 @@ The figures behind [the peoples and languages map](https://azadbilik.org/atlas/x
 | [`atlas/peoples/by-district.csv`](atlas/peoples/by-district.csv) | 4,662 | Each people by district and census, with the district's total |
 | [`atlas/peoples/totals.csv`](atlas/peoples/totals.csv) | 193 | Each people in the Republic per census |
 | [`atlas/peoples/NOTES.md`](atlas/peoples/NOTES.md) | | Census category changes (Talysh, Kryz, Budukh, Khinalug, Ingiloys) and gaps |
+
+## Native languages in 1897
+
+The figures behind [the 1897 map](https://azadbilik.org/atlas/1897/): the first census of the Russian Empire, native language by governorate, uezd and town, for the Baku, Elisabethpol and Erivan governorates, the Dagestan and Kars oblasts, Borchali and Zaqatala. Every language the census names, by sex, from Table XIII as Demoscope Weekly transcribes it.
+
+| File | Rows | What |
+|---|---:|---|
+| [`atlas/languages-1897/by-unit.csv`](atlas/languages-1897/by-unit.csv) | 1,277 | Each language in each of 5 governorates, 36 uezds and 39 towns, men and women |
+| [`atlas/languages-1897/NOTES.md`](atlas/languages-1897/NOTES.md) | | The census's language names («татарский» is Azerbaijani) and how the map groups them; coverage; checks |
+
+`kind` is governorate, uyezd or town, and each level includes the one below: add up one kind only.
+
+Updating: in a checkout of the site, `node atlas/1897/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 
 ## Citing
 

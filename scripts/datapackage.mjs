@@ -90,6 +90,14 @@ const tables = {
   'peoples-totals': ['Each people counted in the Republic of Azerbaijan at each census, 1959–2019.', [
     i('year'), s('people'), i('count'), s('source_url'),
   ], ['year', 'people'], 'atlas/peoples', 'totals'],
+  // Native languages in 1897 (azadbilik.org/atlas/1897)
+  'languages-1897': ['The 1897 census of the Russian Empire, Table XIII (native language): every language named in each governorate, uezd and town of the Baku, Elisabethpol and Erivan governorates, the Dagestan and Kars oblasts, and the Borchali uezd and Zaqatala okrug, by sex, as Demoscope Weekly transcribes it. Azerbaijani is the census\'s «татарский»: see NOTES.md.', [
+    s('unit_ru', 'The governorate, uezd or town as the census names it.'), s('unit_az'), s('unit_en'),
+    s('kind', 'governorate, uyezd or town. A governorate counts its uezds, an uezd its towns again: add only one kind.'),
+    s('uyezd_ru', 'For a town, its uezd; for an uezd, itself.'),
+    s('language', 'The group the map uses: azerbaijani, armenian, russian, avar, lezgian, lak, dargin, talysh, tat, kurdish, … (see NOTES.md).'),
+    s('language_ru', 'The census\'s own name, e.g. Татарский, Кюринский, Остальные.'), i('men'), i('women'), i('both'), s('source_url', 'The Demoscope page.'),
+  ], ['unit_ru', 'kind', 'language_ru'], 'atlas/languages-1897', 'by-unit'],
 };
 const fk = (field, resource) => ({ fields: field, reference: { resource, fields: 'slug' } });
 const foreign = {
@@ -119,11 +127,11 @@ for (const r of resources) for (const f of r.schema.fields) if (f.type === 'bool
 writeFileSync('datapackage.json', JSON.stringify({
   name: 'azadbilik',
   title: 'Azad Bilik open data',
-  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, and the peoples of Azerbaijan by district.',
+  description: 'Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery\'s index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, and native languages at the 1897 census.',
   homepage: 'https://github.com/azadbilik/data',
   version: new Date().toISOString().slice(0, 10),
   licenses: [{ name: 'CC0-1.0', path: 'https://creativecommons.org/publicdomain/zero/1.0/', title: 'CC0 1.0 Universal' }],
-  sources: [{ title: 'Kitabxana.az', path: 'https://kitabxana.az' }, { title: 'Wikidata', path: 'https://www.wikidata.org' }, { title: 'State Statistical Committee of the Republic of Azerbaijan', path: 'https://www.stat.gov.az' }, { title: 'Demoscope Weekly (Soviet censuses)', path: 'https://www.demoscope.ru' }, { title: 'Statistical Centre of Iran, via the Iran Data Portal', path: 'https://irandataportal.syr.edu' }],
+  sources: [{ title: 'Kitabxana.az', path: 'https://kitabxana.az' }, { title: 'Wikidata', path: 'https://www.wikidata.org' }, { title: 'State Statistical Committee of the Republic of Azerbaijan', path: 'https://www.stat.gov.az' }, { title: 'Demoscope Weekly (Soviet censuses)', path: 'https://www.demoscope.ru' }, { title: 'Statistical Centre of Iran, via the Iran Data Portal', path: 'https://irandataportal.syr.edu' }, { title: 'First General Census of the Russian Empire, 1897, Table XIII, via Demoscope Weekly', path: 'https://www.demoscope.ru/weekly/ssp/emp_lan_97_uezd.php' }],
   resources,
 }, null, 2) + '\n');
 console.log(resources.map((r) => r.description.match(/[\d,]+ rows/)[0] + ' ' + r.name).join('\n'));

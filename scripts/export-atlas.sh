@@ -30,3 +30,8 @@ cp "$src/peoples-az.csv" atlas/peoples/by-district.csv
 cp "$src/peoples-az-totals.csv" atlas/peoples/totals.csv
 cp "$src/peoples-az-notes.md" atlas/peoples/NOTES.md
 echo "atlas/communities, atlas/peoples copied"
+# Native languages in 1897 (azadbilik.org/atlas/1897)
+src="$site/atlas/1897/data"
+cp "$src/census-1897.csv" atlas/languages-1897/by-unit.csv
+cp "$src/NOTES.md" atlas/languages-1897/NOTES.md
+echo "atlas/languages-1897: $(($(wc -l < atlas/languages-1897/by-unit.csv) - 1)) rows"

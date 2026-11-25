@@ -1,7 +1,7 @@
 {
   "name": "azadbilik",
   "title": "Azad Bilik open data",
-  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, and the peoples of Azerbaijan by district.",
+  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, and native languages at the 1897 census.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-25",
   "licenses": [
@@ -31,6 +31,10 @@
     {
       "title": "Statistical Centre of Iran, via the Iran Data Portal",
       "path": "https://irandataportal.syr.edu"
+    },
+    {
+      "title": "First General Census of the Russian Empire, 1897, Table XIII, via Demoscope Weekly",
+      "path": "https://www.demoscope.ru/weekly/ssp/emp_lan_97_uezd.php"
     }
   ],
   "resources": [
@@ -1153,6 +1157,80 @@
         "primaryKey": [
           "year",
           "people"
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      }
+    },
+    {
+      "name": "languages-1897",
+      "path": "atlas/languages-1897/by-unit.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "The 1897 census of the Russian Empire, Table XIII (native language): every language named in each governorate, uezd and town of the Baku, Elisabethpol and Erivan governorates, the Dagestan and Kars oblasts, and the Borchali uezd and Zaqatala okrug, by sex, as Demoscope Weekly transcribes it. Azerbaijani is the census's «татарский»: see NOTES.md. 1,277 rows.",
+      "schema": {
+        "fields": [
+          {
+            "name": "unit_ru",
+            "type": "string",
+            "description": "The governorate, uezd or town as the census names it."
+          },
+          {
+            "name": "unit_az",
+            "type": "string"
+          },
+          {
+            "name": "unit_en",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "governorate, uyezd or town. A governorate counts its uezds, an uezd its towns again: add only one kind."
+          },
+          {
+            "name": "uyezd_ru",
+            "type": "string",
+            "description": "For a town, its uezd; for an uezd, itself."
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "The group the map uses: azerbaijani, armenian, russian, avar, lezgian, lak, dargin, talysh, tat, kurdish, … (see NOTES.md)."
+          },
+          {
+            "name": "language_ru",
+            "type": "string",
+            "description": "The census's own name, e.g. Татарский, Кюринский, Остальные."
+          },
+          {
+            "name": "men",
+            "type": "integer"
+          },
+          {
+            "name": "women",
+            "type": "integer"
+          },
+          {
+            "name": "both",
+            "type": "integer"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "The Demoscope page."
+          }
+        ],
+        "primaryKey": [
+          "unit_ru",
+          "kind",
+          "language_ru"
         ],
         "missingValues": [
           ""
