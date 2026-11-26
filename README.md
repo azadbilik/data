@@ -9,7 +9,7 @@ Open datasets, free to use for anything (CC0), in two parts, as on [azadbilik.or
 | Part | What | Unit | Updated |
 |---|---|---|---|
 | [`culture/`](culture/) | The catalogue of kitabxana.az, and the gallery's index of miniatures by scene and chapter | a work, an author, a picture | piece by piece |
-| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county; native languages in 1897; Soviet raions 1939–1989 | a district, a census | release by release (a new census, new boundaries) |
+| [`atlas/`](atlas/) | Census populations of historical Azerbaijan by district and county; native languages in 1897; Soviet raions 1926–1989 | a district, a census | release by release (a new census, new boundaries) |
 
 All tables are described in one [`datapackage.json`](datapackage.json); places and people carry Wikidata ids where known, so the two parts join on them.
 
@@ -130,16 +130,16 @@ The figures behind [the 1897 map](https://azadbilik.org/atlas/1897/): the first 
 
 Updating: in a checkout of the site, `node atlas/1897/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 
-## Soviet raions, 1939, 1979 and 1989
+## Soviet raions, 1926–1989
 
-The figures behind [the Soviet raions map](https://azadbilik.org/atlas/rayonlar/): every raion and city council of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses, as each census drew them (Divichi, Kazakh, Khanlar, Ilyichevsk, Mardakert, Martuni; in 1939 also Konakhkend, Khilli, Kazi-Magomed, Abrakunis, Norashen…), with the districts of today that cover each one's land. Unlike `census-az.csv`, which keeps only Soviet units that match a district of today, this table has them all.
+The figures behind [the Soviet raions map](https://azadbilik.org/atlas/rayonlar/): every raion and city council of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses, and every uezd at the 1926 census, as each census drew them (Divichi, Kazakh, Khanlar, Ilyichevsk, Mardakert, Martuni; in 1939 also Konakhkend, Khilli, Kazi-Magomed, Abrakunis, Norashen…), with the districts of today that cover each one's land. Unlike `census-az.csv`, which keeps only Soviet units that match a district of today, this table has them all.
 
 | File | Rows | What |
 |---|---:|---|
-| [`atlas/soviet-raions/by-raion.csv`](atlas/soviet-raions/by-raion.csv) | 213 | 69 units in 1939 and 72 in 1979 and 1989: present population, urban population, the census rows summed, today's districts |
+| [`atlas/soviet-raions/by-raion.csv`](atlas/soviet-raions/by-raion.csv) | 230 | 17 uezds and cities in 1926, 69 units in 1939 and 72 in 1979 and 1989: present population, urban population, the census rows summed, today's districts |
 | [`atlas/soviet-raions/NOTES.md`](atlas/soviet-raions/NOTES.md) | | How each Soviet unit matches today's districts, which are approximate, which raions merged since are drawn together, and the districts of today whose land can't be assigned |
 
-Each year adds up to the republic's total (3,205,150 in 1939; 6,028,253 in 1979; 7,037,867 in 1989), urban people too. A `soviet_unit` id names a unit within its census: the 1939 and 1979 Kuba, say, are not the same land. Until v1.2 this table was `atlas/raions-1979-1989/` without 1939.
+Each year adds up to the republic's total (2,314,430 in 1926, the sum of the uezds; 3,205,150 in 1939; 6,028,253 in 1979; 7,037,867 in 1989), urban people too (no urban figures for 1926). The 1926 uezds are matched to today's districts only roughly. A `soviet_unit` id names a unit within its census: the 1939 and 1979 Kuba, say, are not the same land. Until v1.2 this table was `atlas/raions-1979-1989/` without 1939.
 
 Updating: in a checkout of the site, `node atlas/rayonlar/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 

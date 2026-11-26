@@ -1,7 +1,7 @@
 {
   "name": "azadbilik",
   "title": "Azad Bilik open data",
-  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses.",
+  "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the censuses of 1926–1989.",
   "homepage": "https://github.com/azadbilik/data",
   "version": "2026-11-26",
   "licenses": [
@@ -1247,7 +1247,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, as each census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. The 1939 raions differ from those of 1979–1989: see NOTES.md for how units were matched. 213 rows.",
+      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, and of each uezd at the 1926 census, as each census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. The 1939 raions differ from those of 1979–1989, and the 1926 uezds are matched to today's districts only roughly: see NOTES.md. 230 rows.",
       "schema": {
         "fields": [
           {
@@ -1271,7 +1271,7 @@
           {
             "name": "kind",
             "type": "string",
-            "description": "raion, or city (a city or city council of republic or oblast subordination)."
+            "description": "raion (in 1926 an uezd, the Nakhchivan SSR or the Nagorno-Karabakh AO), or city (a city or city council of republic or oblast subordination)."
           },
           {
             "name": "region",
@@ -1281,7 +1281,7 @@
           {
             "name": "year",
             "type": "integer",
-            "description": "1939, 1979 or 1989."
+            "description": "1926, 1939, 1979 or 1989."
           },
           {
             "name": "population",
@@ -1291,7 +1291,7 @@
           {
             "name": "urban",
             "type": "integer",
-            "description": "Urban population."
+            "description": "Urban population; empty for 1926."
           },
           {
             "name": "census_rows",
