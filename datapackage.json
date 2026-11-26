@@ -1247,7 +1247,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, and of each uezd at the 1926 census, as each census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. The 1939 raions differ from those of 1979–1989, and the 1926 uezds are matched to today's districts only roughly: see NOTES.md. 230 rows.",
+      "description": "Azerbaijan SSR: population of each raion and city council at the all-Union censuses of 1939, 1979 and 1989, and of each uezd at the 1926 census, as each census drew them, with the districts of today that cover each one's land. Present population, total and urban, from Demoscope Weekly's tables; each year adds up to the republic's total. The 1939 raions differ from those of 1979–1989, and the 1926 uezds are matched to today's districts only roughly: see NOTES.md. 228 rows.",
       "schema": {
         "fields": [
           {
@@ -1271,7 +1271,7 @@
           {
             "name": "kind",
             "type": "string",
-            "description": "raion (in 1926 an uezd, the Nakhchivan SSR or the Nagorno-Karabakh AO), or city (a city or city council of republic or oblast subordination)."
+            "description": "raion (in 1926 an uezd, which includes its city, the Nakhchivan SSR or the Nagorno-Karabakh AO), or city (a city or city council of republic or oblast subordination)."
           },
           {
             "name": "region",
@@ -1291,7 +1291,7 @@
           {
             "name": "urban",
             "type": "integer",
-            "description": "Urban population; empty for 1926."
+            "description": "Urban population."
           },
           {
             "name": "census_rows",

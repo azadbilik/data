@@ -136,10 +136,10 @@ The figures behind [the Soviet raions map](https://azadbilik.org/atlas/rayonlar/
 
 | File | Rows | What |
 |---|---:|---|
-| [`atlas/soviet-raions/by-raion.csv`](atlas/soviet-raions/by-raion.csv) | 230 | 17 uezds and cities in 1926, 69 units in 1939 and 72 in 1979 and 1989: present population, urban population, the census rows summed, today's districts |
+| [`atlas/soviet-raions/by-raion.csv`](atlas/soviet-raions/by-raion.csv) | 228 | 15 uezds in 1926, 69 units in 1939 and 72 in 1979 and 1989: present population, urban population, the census rows summed, today's districts |
 | [`atlas/soviet-raions/NOTES.md`](atlas/soviet-raions/NOTES.md) | | How each Soviet unit matches today's districts, which are approximate, which raions merged since are drawn together, and the districts of today whose land can't be assigned |
 
-Each year adds up to the republic's total (2,314,430 in 1926, the sum of the uezds; 3,205,150 in 1939; 6,028,253 in 1979; 7,037,867 in 1989), urban people too (no urban figures for 1926). The 1926 uezds are matched to today's districts only roughly. A `soviet_unit` id names a unit within its census: the 1939 and 1979 Kuba, say, are not the same land. Until v1.2 this table was `atlas/raions-1979-1989/` without 1939.
+Each year adds up to the republic's total (2,314,571 in 1926; 3,205,150 in 1939; 6,028,253 in 1979; 7,037,867 in 1989), urban people too. The 1926 uezds are matched to today's districts only roughly. A `soviet_unit` id names a unit within its census: the 1939 and 1979 Kuba, say, are not the same land. Until v1.2 this table was `atlas/raions-1979-1989/` without 1939.
 
 Updating: in a checkout of the site, `node atlas/rayonlar/scripts/build.mjs`; then here `scripts/export-atlas.sh ../azadbilik.org` and `node scripts/datapackage.mjs`.
 
