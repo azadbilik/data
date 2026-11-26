@@ -3,7 +3,7 @@
   "title": "Azad Bilik open data",
   "description": "Culture: the catalogue of the Kitabxana.az library of Azerbaijani literature (authors, books, works, translations, places) and the Azad Bilik gallery's index of miniatures by scene and chapter. Atlas: census populations of historical Azerbaijan by district and county, Azerbaijani communities in Georgia, Dagestan and Soviet Armenia, the peoples of Azerbaijan by district, native languages at the 1897 census, and the raions of the Azerbaijan SSR at the 1939, 1979 and 1989 censuses.",
   "homepage": "https://github.com/azadbilik/data",
-  "version": "2026-11-25",
+  "version": "2026-11-26",
   "licenses": [
     {
       "name": "CC0-1.0",
@@ -617,7 +617,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "description": "Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders', under the licence given; this index is CC0. 781 rows.",
+      "description": "Miniatures, manuscript pages and textiles illustrating the poems: where each is kept, its licence, and the scene and chapter it shows. Images are the holders', under the licence given; this index is CC0. 780 rows.",
       "schema": {
         "fields": [
           {
